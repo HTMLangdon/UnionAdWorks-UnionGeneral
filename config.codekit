@@ -1,0 +1,4253 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "19127",
+"files": {
+	"\/assets\/_-_-A-R-C--_-_-styles\/css\/animate.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/css\/animate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/_base-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/_base-styles.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/Build\/assets\/styles\/_base-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/_functions.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/_functions.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/Build\/assets\/styles\/_functions.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/_normalize.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/_normalize.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/Build\/assets\/styles\/_normalize.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/_typography.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/_typography.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/Build\/assets\/styles\/_typography.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/_utils.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/_utils.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/Build\/assets\/styles\/_utils.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/_variables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/_variables.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/base\/Build\/assets\/styles\/_variables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/jquery.fullPage.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/jquery.fullPage.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/Build\/assets\/styles\/jquery.fullPage.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_buttons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_buttons.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/Build\/assets\/styles\/_buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_code.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_code.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/Build\/assets\/styles\/_code.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_forms.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_forms.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/Build\/assets\/styles\/_forms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_grid.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_grid.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/Build\/assets\/styles\/_grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_lists.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_lists.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/Build\/assets\/styles\/_lists.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_media-queries.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_media-queries.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/Build\/assets\/styles\/_media-queries.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_spacing.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_spacing.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/Build\/assets\/styles\/_spacing.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_tables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/_tables.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/modules\/Build\/assets\/styles\/_tables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/skeleton.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/skeleton.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/Build\/assets\/styles\/skeleton.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_-_-A-R-C--_-_-styles\/sass\/style.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/style.scss",
+		"outputAbbreviatedPath": "\/assets\/_-_-A-R-C--_-_-styles\/sass\/Build\/assets\/styles\/style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/apple-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4522,
+		"inputAbbreviatedPath": "\/assets\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/assets\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/js\/app.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/app.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/app.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/jquery-1.8.3.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/jquery-1.8.3.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/jquery-1.8.3.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/jquery-fullpage.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/jquery-fullpage.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/jquery-fullpage.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/jquery.fullpage.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/jquery.fullpage.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/jquery.fullpage.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/jquery.magnific-popup.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/jquery.magnific-popup.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/jquery.magnific-popup.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/jquery.slides.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/jquery.slides.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/jquery.slides.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/jquery.slimscroll.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/jquery.slimscroll.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/jquery.slimscroll.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/jquery.validate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/jquery.validate.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/jquery.validate.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/mail-form.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/mail-form.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/mail-form.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/modernizr.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/modernizr.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/scrolloverflow.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/scrolloverflow.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/scrolloverflow.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/velocity.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/velocity.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/velocity.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/slices\/background-image-sAbout-01-bird 2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9020,
+		"inputAbbreviatedPath": "\/assets\/slices\/background-image-sAbout-01-bird 2.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/background-image-sAbout-01-bird 2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/background-image-sAbout-01-bird.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9121,
+		"inputAbbreviatedPath": "\/assets\/slices\/background-image-sAbout-01-bird.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/background-image-sAbout-01-bird.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/background-image-sAbout-01-bird.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49719,
+		"inputAbbreviatedPath": "\/assets\/slices\/background-image-sAbout-01-bird.png",
+		"outputAbbreviatedPath": "\/assets\/slices\/background-image-sAbout-01-bird.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/background-image-sAbout-a-bird.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50879,
+		"inputAbbreviatedPath": "\/assets\/slices\/background-image-sAbout-a-bird.png",
+		"outputAbbreviatedPath": "\/assets\/slices\/background-image-sAbout-a-bird.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/background-image-sAbout-b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71276,
+		"inputAbbreviatedPath": "\/assets\/slices\/background-image-sAbout-b.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/background-image-sAbout-b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/background-image-sBoutique-a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58521,
+		"inputAbbreviatedPath": "\/assets\/slices\/background-image-sBoutique-a.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/background-image-sBoutique-a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/background-image-sContact-bird-b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5623,
+		"inputAbbreviatedPath": "\/assets\/slices\/background-image-sContact-bird-b.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/background-image-sContact-bird-b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/background-image-sCupcakery.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43590,
+		"inputAbbreviatedPath": "\/assets\/slices\/background-image-sCupcakery.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/background-image-sCupcakery.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/background-image-sHome-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75556,
+		"inputAbbreviatedPath": "\/assets\/slices\/background-image-sHome-01.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/background-image-sHome-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/background-image-sHome.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67034,
+		"inputAbbreviatedPath": "\/assets\/slices\/background-image-sHome.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/background-image-sHome.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 755927,
+		"inputAbbreviatedPath": "\/assets\/slices\/background.png",
+		"outputAbbreviatedPath": "\/assets\/slices\/background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/botique-sm\/social-post-plc-a.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 342685,
+		"inputAbbreviatedPath": "\/assets\/slices\/botique-sm\/social-post-plc-a.png",
+		"outputAbbreviatedPath": "\/assets\/slices\/botique-sm\/social-post-plc-a.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/botique-sm\/social-post-plc-b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 287124,
+		"inputAbbreviatedPath": "\/assets\/slices\/botique-sm\/social-post-plc-b.png",
+		"outputAbbreviatedPath": "\/assets\/slices\/botique-sm\/social-post-plc-b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/botique-sm\/social-post-plc-c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23850,
+		"inputAbbreviatedPath": "\/assets\/slices\/botique-sm\/social-post-plc-c.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/botique-sm\/social-post-plc-c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/botique-sm\/social-post-plc-d.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 289877,
+		"inputAbbreviatedPath": "\/assets\/slices\/botique-sm\/social-post-plc-d.png",
+		"outputAbbreviatedPath": "\/assets\/slices\/botique-sm\/social-post-plc-d.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/buffer-bar-home-about.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1853,
+		"inputAbbreviatedPath": "\/assets\/slices\/buffer-bar-home-about.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/buffer-bar-home-about.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcake-gallery-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3278,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcake-gallery-icon.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcake-gallery-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcakery-hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 734434,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcakery-hero.png",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcakery-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Baby_I'm_A_Star.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213977,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Baby_I'm_A_Star.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Baby_I'm_A_Star.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Babycake.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213537,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Babycake.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Babycake.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/BB.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 194140,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/BB.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/BB.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Bird_Nest-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 261156,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Bird_Nest-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Bird_Nest-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Bunnycake.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213890,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Bunnycake.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Bunnycake.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Carm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 179082,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Carm.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Carm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Cassius.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 210567,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Cassius.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Cassius.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Cheeky_Monkey.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141143,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Cheeky_Monkey.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Cheeky_Monkey.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Coco.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 225348,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Coco.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Coco.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Cookie_n_Cream.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 181271,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Cookie_n_Cream.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Cookie_n_Cream.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Creamsicle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 197928,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Creamsicle.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Creamsicle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Delish.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 214619,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Delish.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Delish.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Delovely.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209815,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Delovely.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Delovely.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Elvis.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 214255,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Elvis.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Elvis.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Genius_of _Love.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 257032,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Genius_of _Love.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Genius_of _Love.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Gimme_Smores.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 245402,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Gimme_Smores.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Gimme_Smores.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Hummingbird.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 227849,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Hummingbird.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Hummingbird.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Malty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198372,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Malty.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Malty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Mint_Chippy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234292,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Mint_Chippy.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Mint_Chippy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Minty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207145,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Minty.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Minty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Mocha.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 232102,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Mocha.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Mocha.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Molten_Lava.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 263062,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Molten_Lava.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Molten_Lava.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Mr_Nutty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 180227,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Mr_Nutty.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Mr_Nutty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Old_School.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184373,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Old_School.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Old_School.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Patti.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195942,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Patti.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Patti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/PB&J.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 199741,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/PB&J.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/PB&J.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Peanutty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 247346,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Peanutty.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Peanutty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/PH-cupcallery-icon-PH-Large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10356,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/PH-cupcallery-icon-PH-Large.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/PH-cupcallery-icon-PH-Large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/PH-cupcallery-icon-PH.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10356,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/PH-cupcallery-icon-PH.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/PH-cupcallery-icon-PH.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Praline.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207254,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Praline.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Praline.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Raspberry_Beret.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262457,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Raspberry_Beret.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Raspberry_Beret.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Red_Velvet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242613,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Red_Velvet.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Red_Velvet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Red_Wing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207445,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Red_Wing.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Red_Wing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Rocky_Road.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 239184,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Rocky_Road.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Rocky_Road.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Shindig.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 215192,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Shindig.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Shindig.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Splendid.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 188746,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Splendid.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Splendid.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Springy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 266439,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Springy.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Springy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Sweet_and_Salty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 204131,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Sweet_and_Salty.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Sweet_and_Salty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/Sweetie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 215655,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Sweetie.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/Sweetie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/The_General.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211792,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/The_General.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/The_General.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Baby_I'm_A_Star.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3678,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Baby_I'm_A_Star.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Baby_I'm_A_Star.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Babycake.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3419,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Babycake.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Babycake.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-BB.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3421,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-BB.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-BB.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Bird_Nest-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4576,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Bird_Nest-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Bird_Nest-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Bunnycake.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4128,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Bunnycake.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Bunnycake.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Carm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3537,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Carm.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Carm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Cassius.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4246,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Cassius.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Cassius.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Cheeky_Monkey.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4328,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Cheeky_Monkey.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Cheeky_Monkey.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Coco.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4391,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Coco.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Coco.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Cookie_n_Cream.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4112,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Cookie_n_Cream.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Cookie_n_Cream.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Creamsicle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3733,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Creamsicle.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Creamsicle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Delish.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4183,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Delish.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Delish.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Delovely.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3611,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Delovely.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Delovely.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Elvis.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3961,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Elvis.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Elvis.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Genius_of _Love.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4397,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Genius_of _Love.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Genius_of _Love.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Gimme_Smores.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4077,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Gimme_Smores.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Gimme_Smores.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Hummingbird.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4046,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Hummingbird.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Hummingbird.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Malty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4100,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Malty.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Malty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Mint_Chippy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4072,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Mint_Chippy.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Mint_Chippy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Minty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3702,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Minty.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Minty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Mocha.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3667,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Mocha.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Mocha.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Molten_Lava.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4299,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Molten_Lava.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Molten_Lava.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Mr_Nutty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3865,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Mr_Nutty.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Mr_Nutty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Old_School.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3502,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Old_School.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Old_School.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Patti.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4332,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Patti.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Patti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-PB&J.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3938,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-PB&J.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-PB&J.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Peanutty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33783,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Peanutty.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Peanutty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Praline.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4043,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Praline.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Praline.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Raspberry_Beret.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4115,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Raspberry_Beret.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Raspberry_Beret.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Red_Velvet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4567,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Red_Velvet.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Red_Velvet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Red_Wing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4085,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Red_Wing.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Red_Wing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Rocky_Road.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4203,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Rocky_Road.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Rocky_Road.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Shindig.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4296,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Shindig.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Shindig.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Splendid.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3605,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Splendid.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Splendid.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Springy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4322,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Springy.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Springy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Sweet_and_Salty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4315,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Sweet_and_Salty.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Sweet_and_Salty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-Sweetie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3640,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Sweetie.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-Sweetie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-The_General.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3639,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-The_General.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-The_General.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/thumbnails\/thb-vanilla_heart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3736,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-vanilla_heart.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/thumbnails\/thb-vanilla_heart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/cupcallery\/vanilla_heart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 199983,
+		"inputAbbreviatedPath": "\/assets\/slices\/cupcallery\/vanilla_heart.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/cupcallery\/vanilla_heart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1156,
+		"inputAbbreviatedPath": "\/assets\/slices\/favicon.png",
+		"outputAbbreviatedPath": "\/assets\/slices\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/logo-header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8066,
+		"inputAbbreviatedPath": "\/assets\/slices\/logo-header.png",
+		"outputAbbreviatedPath": "\/assets\/slices\/logo-header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/logo-large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42915,
+		"inputAbbreviatedPath": "\/assets\/slices\/logo-large.png",
+		"outputAbbreviatedPath": "\/assets\/slices\/logo-large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/logo-medium-contact-us.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23300,
+		"inputAbbreviatedPath": "\/assets\/slices\/logo-medium-contact-us.png",
+		"outputAbbreviatedPath": "\/assets\/slices\/logo-medium-contact-us.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/section-hero-image-cupcakery.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37536,
+		"inputAbbreviatedPath": "\/assets\/slices\/section-hero-image-cupcakery.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/section-hero-image-cupcakery.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/slices\/UnionGeneral_Site.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84048,
+		"inputAbbreviatedPath": "\/assets\/slices\/UnionGeneral_Site.jpg",
+		"outputAbbreviatedPath": "\/assets\/slices\/UnionGeneral_Site.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/styles\/animate.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/animate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/styles\/base\/_base-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/base\/_base-styles.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/base\/Build\/assets\/styles\/_base-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/base\/_functions.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/base\/_functions.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/base\/Build\/assets\/styles\/_functions.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/base\/_normalize.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/base\/_normalize.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/base\/Build\/assets\/styles\/_normalize.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/base\/_typography.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/base\/_typography.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/base\/Build\/assets\/styles\/_typography.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/base\/_utils.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/base\/_utils.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/base\/Build\/assets\/styles\/_utils.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/base\/_variables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/base\/_variables.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/base\/Build\/assets\/styles\/_variables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/Build\/assets\/styles\/styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/Build\/assets\/styles\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/styles\/jquery.fullPage.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/jquery.fullPage.scss",
+		"outputAbbreviatedPath": "\/Build\/assets\/styles\/jquery.fullPage.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/magnific-popup.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/magnific-popup.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/styles\/modules\/_buttons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/modules\/_buttons.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/modules\/Build\/assets\/styles\/_buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/modules\/_code.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/modules\/_code.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/modules\/Build\/assets\/styles\/_code.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/modules\/_forms.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/modules\/_forms.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/modules\/Build\/assets\/styles\/_forms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/modules\/_grid.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/modules\/_grid.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/modules\/Build\/assets\/styles\/_grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/modules\/_lists.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/modules\/_lists.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/modules\/Build\/assets\/styles\/_lists.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/modules\/_media-queries.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/modules\/_media-queries.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/modules\/Build\/assets\/styles\/_media-queries.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/modules\/_spacing.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/modules\/_spacing.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/modules\/Build\/assets\/styles\/_spacing.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/modules\/_tables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/modules\/_tables.scss",
+		"outputAbbreviatedPath": "\/assets\/styles\/modules\/Build\/assets\/styles\/_tables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/popups.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/popups.scss",
+		"outputAbbreviatedPath": "\/Build\/assets\/styles\/popups.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/reset.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/reset.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/styles\/skeleton.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/assets\/styles\/skeleton.scss",
+		"outputAbbreviatedPath": "\/Build\/assets\/styles\/skeleton.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/styles\/styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/styles\/styles.scss",
+		"outputAbbreviatedPath": "\/Build\/assets\/styles\/styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/Build\/-old-nDex.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/-old-nDex.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/_______index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/_______index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/______index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/______index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/_____index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/_____index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/____index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/____index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/___index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/___index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/assets\/apple-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4522,
+		"inputAbbreviatedPath": "\/Build\/assets\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/js\/app.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/app.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/app.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/jquery-1.8.3.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/jquery-1.8.3.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/jquery-1.8.3.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/jquery-1.8.3.min.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/jquery-1.8.3.min.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/jquery-1.8.3.min.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/jquery-fullpage.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/jquery-fullpage.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/jquery-fullpage.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/jquery-fullpage.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/jquery-fullpage.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/jquery-fullpage.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/jquery.fullpage.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/jquery.fullpage.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/jquery.fullpage.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/jquery.magnific-popup.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/jquery.magnific-popup.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/jquery.magnific-popup.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/jquery.magnific-popup.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/jquery.magnific-popup.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/jquery.magnific-popup.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/jquery.slides.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/jquery.slides.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/jquery.slides.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/jquery.slides.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/jquery.slides.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/jquery.slides.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/jquery.slimscroll.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/jquery.slimscroll.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/jquery.slimscroll.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/jquery.validate.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/jquery.validate.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/jquery.validate.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/mail-form.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/mail-form.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/mail-form.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/modernizr.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/modernizr.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/modernizr.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/scrolloverflow.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/scrolloverflow.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/scrolloverflow.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/velocity.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/velocity.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/velocity.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/js\/velocity.min.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/js\/velocity.min.min.js",
+		"outputAbbreviatedPath": "\/Build\/assets\/js\/Build\/assets\/js\/velocity.min.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Build\/assets\/slices\/background-image-sAbout-01-bird 2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9020,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sAbout-01-bird 2.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sAbout-01-bird 2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/background-image-sAbout-01-bird.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9121,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sAbout-01-bird.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sAbout-01-bird.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/background-image-sAbout-01-bird.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49719,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sAbout-01-bird.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sAbout-01-bird.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/background-image-sAbout-a-bird.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50879,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sAbout-a-bird.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sAbout-a-bird.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/background-image-sAbout-b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71276,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sAbout-b.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sAbout-b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/background-image-sBoutique-a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58521,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sBoutique-a.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sBoutique-a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/background-image-sContact-bird-b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5623,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sContact-bird-b.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sContact-bird-b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/background-image-sCupcakery.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43590,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sCupcakery.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sCupcakery.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/background-image-sHome-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75556,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sHome-01.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sHome-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/background-image-sHome.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67034,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sHome.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/background-image-sHome.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 755927,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/background.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/buffer-bar-home-about.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1853,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/buffer-bar-home-about.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/buffer-bar-home-about.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcake-gallery-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3278,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcake-gallery-icon.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcake-gallery-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcakery-hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 734434,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcakery-hero.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcakery-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Baby_I'm_A_Star.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Baby_I'm_A_Star.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Baby_I'm_A_Star.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Babycake.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Babycake.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Babycake.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/BB.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/BB.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/BB.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Bird_Nest-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Bird_Nest-1.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Bird_Nest-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Bunnycake.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Bunnycake.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Bunnycake.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Carm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Carm.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Carm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Cassius.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Cassius.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Cassius.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Cheeky_Monkey.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Cheeky_Monkey.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Cheeky_Monkey.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Coco.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Coco.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Coco.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Cookie_n_Cream.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Cookie_n_Cream.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Cookie_n_Cream.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Creamsicle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Creamsicle.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Creamsicle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Delish.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Delish.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Delish.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Delovely.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Delovely.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Delovely.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Elvis.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Elvis.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Elvis.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Genius_of _Love.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Genius_of _Love.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Genius_of _Love.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Gimme_Smores.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Gimme_Smores.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Gimme_Smores.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Hummingbird.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Hummingbird.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Hummingbird.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Malty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Malty.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Malty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Mint_Chippy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Mint_Chippy.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Mint_Chippy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Minty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Minty.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Minty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Mocha.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Mocha.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Mocha.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Molten_Lava.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Molten_Lava.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Molten_Lava.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Mr_Nutty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Mr_Nutty.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Mr_Nutty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Old_School.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Old_School.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Old_School.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Patti.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Patti.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Patti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/PB&J.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/PB&J.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/PB&J.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Peanutty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Peanutty.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Peanutty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/PH-cupcallery-icon-PH-Large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10356,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/PH-cupcallery-icon-PH-Large.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/PH-cupcallery-icon-PH-Large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/PH-cupcallery-icon-PH.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10356,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/PH-cupcallery-icon-PH.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/PH-cupcallery-icon-PH.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Praline.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Praline.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Praline.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Raspberry_Beret.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Raspberry_Beret.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Raspberry_Beret.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Red_Velvet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Red_Velvet.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Red_Velvet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Red_Wing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Red_Wing.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Red_Wing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Rocky_Road.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Rocky_Road.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Rocky_Road.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Shindig.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Shindig.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Shindig.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Splendid.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Splendid.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Splendid.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Springy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Springy.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Springy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Sweet_and_Salty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Sweet_and_Salty.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Sweet_and_Salty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/Sweetie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Sweetie.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/Sweetie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/The_General.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/The_General.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/The_General.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Baby_I'm_A_Star.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3678,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Baby_I'm_A_Star.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Baby_I'm_A_Star.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Babycake.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3419,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Babycake.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Babycake.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-BB.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3421,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-BB.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-BB.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Bird_Nest-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4576,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Bird_Nest-1.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Bird_Nest-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Bunnycake.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4128,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Bunnycake.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Bunnycake.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Carm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3537,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Carm.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Carm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Cassius.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4246,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Cassius.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Cassius.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Cheeky_Monkey.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4328,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Cheeky_Monkey.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Cheeky_Monkey.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Coco.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4391,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Coco.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Coco.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Cookie_n_Cream.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4112,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Cookie_n_Cream.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Cookie_n_Cream.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Creamsicle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3733,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Creamsicle.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Creamsicle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Delish.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4183,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Delish.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Delish.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Delovely.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3611,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Delovely.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Delovely.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Elvis.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3961,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Elvis.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Elvis.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Genius_of _Love.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4397,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Genius_of _Love.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Genius_of _Love.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Gimme_Smores.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4077,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Gimme_Smores.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Gimme_Smores.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Hummingbird.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4046,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Hummingbird.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Hummingbird.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Malty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4100,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Malty.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Malty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Mint_Chippy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4072,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Mint_Chippy.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Mint_Chippy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Minty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3702,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Minty.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Minty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Mocha.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3667,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Mocha.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Mocha.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Molten_Lava.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4299,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Molten_Lava.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Molten_Lava.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Mr_Nutty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3865,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Mr_Nutty.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Mr_Nutty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Old_School.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3502,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Old_School.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Old_School.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Patti.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4332,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Patti.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Patti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-PB&J.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3938,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-PB&J.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-PB&J.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Peanutty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33783,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Peanutty.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Peanutty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Praline.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4043,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Praline.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Praline.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Raspberry_Beret.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4115,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Raspberry_Beret.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Raspberry_Beret.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Red_Velvet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4567,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Red_Velvet.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Red_Velvet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Red_Wing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4085,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Red_Wing.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Red_Wing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Rocky_Road.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4203,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Rocky_Road.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Rocky_Road.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Shindig.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4296,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Shindig.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Shindig.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Splendid.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3605,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Splendid.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Splendid.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Springy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4322,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Springy.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Springy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Sweet_and_Salty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4315,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Sweet_and_Salty.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Sweet_and_Salty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Sweetie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3640,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Sweetie.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-Sweetie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-The_General.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3639,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-The_General.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-The_General.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-vanilla_heart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3736,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-vanilla_heart.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/thumbnails\/thb-vanilla_heart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/cupcallery\/vanilla_heart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/vanilla_heart.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/cupcallery\/vanilla_heart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1156,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/favicon.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/icon-social-media_FaceBook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3982,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/icon-social-media_FaceBook.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/icon-social-media_FaceBook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/icon-social-media_Instagram.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4303,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/icon-social-media_Instagram.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/icon-social-media_Instagram.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/icon-social-media_Pintrest.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4564,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/icon-social-media_Pintrest.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/icon-social-media_Pintrest.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/img-placeholder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73126,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/img-placeholder.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/img-placeholder.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/logo-header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8066,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/logo-header.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/logo-header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/logo-large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42915,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/logo-large.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/logo-large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/logo-medium-contact-us.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23300,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/logo-medium-contact-us.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/logo-medium-contact-us.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/section-hero-image-cupcakery.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37536,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/section-hero-image-cupcakery.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/section-hero-image-cupcakery.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/UnionGeneral_Site.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84048,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/UnionGeneral_Site.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/UnionGeneral_Site.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-a.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 342685,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-a.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-a.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 287124,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-b.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-c.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23850,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-c.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-c.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-d.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 289877,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-d.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-d.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/styles\/animate.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/styles\/animate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/assets\/styles\/jquery.fullPage.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/styles\/jquery.fullPage.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/assets\/styles\/magnific-popup.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/styles\/magnific-popup.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/assets\/styles\/popups.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/styles\/popups.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/assets\/styles\/skeleton.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/styles\/skeleton.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/assets\/styles\/styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/assets\/styles\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/includes\/_footer.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/_footer.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/includes\/_header.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/_header.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/includes\/_nav.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/_nav.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "John Langdon",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "UGen-v1 2",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "\/assets\/slices\/background-image-sContact-bird-b.jpg"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*.min.js",
+	"javascriptAutoOutputPathRelativePath": "\/Build\/assets\/js",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
+	"markdownEnableFootnotes": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
+	"sassAutoOutputPathRelativePath": ".\/Build\/assets\/styles\/",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 10,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": "_cache, logs, _logs, cache, .git, log, node_modules, .svn, .hg",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputFormat": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
+	"typescriptModuleType": 2,
+	"typescriptNoImplicitAny": 0,
+	"typescriptPreserveConstEnums": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}
