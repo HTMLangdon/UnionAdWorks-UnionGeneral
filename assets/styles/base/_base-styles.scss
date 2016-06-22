@@ -1,0 +1,313 @@
+// Base Styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+// NOTE
+// html is set to 62.5% so that all the REM measurements throughout Skeleton
+// are based on 10px sizing. So basically 1.5rem = 15px :)
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.5em; // currently ems cause chrome bug misinterpreting rems on body element
+    line-height: 1.6;
+    //  
+    color: $font-color_a;
+    p.copy {
+        font-family: $font-family-copy;
+    }
+    h1.headline {
+        font-family: $font-family-headline;
+    }
+}
+html,
+body {
+    //    height: 100% !important;
+    //    width: 100% !important;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    //    height: 500% !important;
+    //    width: 100% !important;
+    //    max-width: 1420px;dd
+}
+section,
+.section,
+.slide {
+    background-size: cover;
+    //    height: 20% !important;
+    //    width: 100% !important;
+    background-repeat: no-repeat;
+    //    background-size: cover;
+    //    max-width: 100%;
+}
+.home-contents {
+    background-image: url('../slices/background-image-sHome.jpg');
+    color: $HEX-Salmon-Flat;
+    .content-container {
+        display: table;
+        padding-top: 80px;
+        width: 100%;
+        .column {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+}
+.about-a-contents {
+    position: relative;
+    max-height: 600px;
+    color: $HEX-Salmon-Dark;
+}
+.about-b-contents {
+    .slide {
+        background-image: url("../slices/background-image-sAbout-b.jpg");
+        color: $HEX-Pure-White;
+    }
+}
+.cupcakery-contents {
+    color: $HEX-Salmon-Flat;
+    background-color: white;
+    p {
+        &.copy {
+            text-indent: 20px;
+        }
+    }
+}
+li {
+    &.cupcake {
+        img {
+            width: 100%;
+            height: 100%;
+            min-width: 78px;
+            max-width: 178px;
+        }
+    }
+}
+.midground-element {
+    .bird-image {
+        z-index: -1;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        margin: auto 0;
+        max-width: 454px;
+        max-height: 415px;
+        height: 100%;
+        width: 100%;
+    }
+}
+.boutique-contents .slide {
+    color: $HEX-Pure-White;
+    background-color: beige;
+    background-image: url(../slices/background-image-sBoutique-a.jpg);
+}
+.whats-new-news {
+    background-color: lightblue;
+}
+.contact-contents {
+    color: $HEX-Pure-White;
+    background-color: $HEX-Salmon-Dark;
+    .logo-container {
+        margin: 0px 0px 30px 0px;
+    }
+}
+.contact form input {
+    color: $HEX-Salmon-Flat;
+}
+ul {
+    &.new-posts {
+        .post {
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+        }
+    }
+}
+.gradient-3band {
+    background: rgba(119, 183, 228, 0.1);
+    background: -moz-linear-gradient(top, rgba(119, 183, 228, 0.1) 17%, rgba(119, 183, 228, 0.1) 20%, rgba(255, 163, 92, 0.1) 31%, rgba(255, 163, 92, 0.1) 40%, rgba(255, 163, 92, 0.1) 51%, rgba(255, 163, 92, 0.1) 64%, rgba(238, 223, 105, 0.1) 79%, rgba(235, 235, 107, 0.1) 82%);
+    background: -webkit-gradient(left top, left bottom, color-stop(17%, rgba(119, 183, 228, 0.1)), color-stop(20%, rgba(119, 183, 228, 0.1)), color-stop(31%, rgba(255, 163, 92, 0.1)), color-stop(40%, rgba(255, 163, 92, 0.1)), color-stop(51%, rgba(255, 163, 92, 0.1)), color-stop(64%, rgba(255, 163, 92, 0.1)), color-stop(79%, rgba(238, 223, 105, 0.1)), color-stop(82%, rgba(235, 235, 107, 0.1)));
+    background: -webkit-linear-gradient(top, rgba(119, 183, 228, 0.1) 17%, rgba(119, 183, 228, 0.1) 20%, rgba(255, 163, 92, 0.1) 31%, rgba(255, 163, 92, 0.1) 40%, rgba(255, 163, 92, 0.1) 51%, rgba(255, 163, 92, 0.1) 64%, rgba(238, 223, 105, 0.1) 79%, rgba(235, 235, 107, 0.1) 82%);
+    background: -o-linear-gradient(top, rgba(119, 183, 228, 0.1) 17%, rgba(119, 183, 228, 0.1) 20%, rgba(255, 163, 92, 0.1) 31%, rgba(255, 163, 92, 0.1) 40%, rgba(255, 163, 92, 0.1) 51%, rgba(255, 163, 92, 0.1) 64%, rgba(238, 223, 105, 0.1) 79%, rgba(235, 235, 107, 0.1) 82%);
+    background: -ms-linear-gradient(top, rgba(119, 183, 228, 0.1) 17%, rgba(119, 183, 228, 0.1) 20%, rgba(255, 163, 92, 0.1) 31%, rgba(255, 163, 92, 0.1) 40%, rgba(255, 163, 92, 0.1) 51%, rgba(255, 163, 92, 0.1) 64%, rgba(238, 223, 105, 0.1) 79%, rgba(235, 235, 107, 0.1) 82%);
+    background: linear-gradient(to bottom, rgba(119, 183, 228, 0.1) 17%, rgba(119, 183, 228, 0.1) 20%, rgba(255, 163, 92, 0.1) 31%, rgba(255, 163, 92, 0.1) 40%, rgba(255, 163, 92, 0.1) 51%, rgba(255, 163, 92, 0.1) 64%, rgba(238, 223, 105, 0.1) 79%, rgba(235, 235, 107, 0.1) 82%);
+    //    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#77b7e4', endColorstr='#ebeb6b', GradientType=0);
+}
+// Links
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+a {
+    color: $link-color;
+    &:hover {
+        color: darken($link-color, 5%);
+    }
+}
+// Misc
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    border-width: 0;
+    border-top: 1px solid $HEX-LightGray;
+}
+// Navigation Variables
+$content-width: 100%;
+$breakpoint: 800px;
+$nav-height: 70px;
+$nav-background: transparent;
+$nav-font-color: $HEX-Seafoam;
+$link-hover-color: $link-color;
+// Logo and branding
+.navigation-logo {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+    line-height: $nav-height;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    a,
+    a:visited {
+        color: $nav-font-color;
+        text-decoration: none;
+    }
+}
+// Container with no padding for navbar
+.nav-container {
+    max-width: $content-width;
+    margin: 0 auto;
+}
+// Navigation 
+nav {
+    float: right;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            float: left;
+            position: relative;
+            a,
+            a:visited {
+                display: block;
+                padding: 0 20px;
+                line-height: $nav-height;
+                background: $nav-background;
+                color: $nav-font-color;
+                text-decoration: none;
+                &:hover {
+                    color: $nav-font-color;
+                }
+                &:not(:only-child):after {
+                    padding-left: 4px;
+                    content: ' ▾';
+                }
+            } // Dropdown list
+            ul li {
+                min-width: 190px;
+                a {
+                    padding: 15px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+// Dropdown list binds to JS toggle event
+.nav-dropdown {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile navigation */
+
+// Binds to JS Toggle
+.nav-mobile-button {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: $nav-background;
+    height: $nav-height;
+    width: $nav-height;
+}
+@media only screen and (max-width: $breakpoint) {
+    // Hamburger nav visible on mobile only
+    .nav-mobile-button {
+        display: block;
+    }
+    nav {
+        background-color:blue;
+        width: 100%;
+        padding: $nav-height 0 15px;
+        ul {
+            display: none;
+            li {
+                float: none;
+                a {
+                    padding: 15px;
+                    line-height: 20px;
+                }
+                ul li a {
+                    padding-left: 30px;
+                }
+            }
+        }
+    }
+    .nav-dropdown {
+        position: static;
+    }
+}
+@media screen and (min-width: $breakpoint) {
+    .nav-list {
+        display: block !important;
+    }
+}
+#btn-hamurberX {
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+    span,
+    span:before,
+    span:after {
+        cursor: pointer;
+        border-radius: 1px;
+        height: 5px;
+        width: 35px;
+        background: $nav-font-color;
+        position: absolute;
+        display: block;
+        content: '';
+        transition: all 300ms ease-in-out;
+    }
+    span:before {
+        top: -10px;
+    }
+    span:after {
+        bottom: -10px;
+    }
+    &.active span {
+        background-color: transparent;
+        &:before,
+        &:after {
+            top: 0;
+        }
+        &:before {
+            transform: rotate(45deg);
+        }
+        &:after {
+            transform: rotate(-45deg);
+        }
+    }
+}
+.post.facebook img {}
+.cupcakes-n-sweets {
+    paddig-top: 40px;
+}
+// Page content 
+article {
+    max-width: $content-width;
+    margin: 0 auto;
+    padding: 10px;
+}

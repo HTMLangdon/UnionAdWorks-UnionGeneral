@@ -1,0 +1,78 @@
+// Variables
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+/*   <   Positioning & Spacing > */
+
+//
+$default-spacing: 10px;
+$pSpacing-sm:5px;
+$pSpacing-md:10px;
+$pSpacing-lg:20px;
+$pSpacing-xlg:45px;
+$mSpacing-sm:5px;
+$mSpacing-md:10px;
+$mSpacing-lg:20px;
+$mSpacing-xlg:45px;
+$default-pSpacing:3px;
+$default-mSpacing:0px;
+
+// Breakpoints
+$bp-larger-than-mobile: "min-width: 400px" !default;
+$bp-larger-than-phablet: "min-width: 550px" !default;
+$bp-larger-than-tablet: "min-width: 750px" !default;
+$bp-larger-than-desktop: "min-width: 1000px" !default;
+$bp-larger-than-desktophd: "min-width: 1200px" !default;
+
+// Colors
+$RGBA-Salmon-Flat:rgba(139, 121, 128, 1);
+$RGBA-Salmon-Dark:rgba(70, 60, 66, 1);
+$RGBA-Black100:rgba(0, 0, 0, 1);
+$RGBA-Black50:rgba(0, 0, 0, .5);
+$HEX-LightGray:#d2d2d2;
+$HEX-Salmon-Flat:#8B7980;
+$HEX-Salmon-Dark:#4D3C42;
+$HEX-Pure-White:#ffffff;
+$HEX-Beige:#E6D1B7;
+$HEX-Seafoam:#D2EAEA;
+
+$HEX-LinkHover-Color:$HEX-Seafoam;
+
+$primary-color: $HEX-Salmon-Flat !default;
+$secondary-color: $HEX-Pure-White !default;
+$border-color: $HEX-LightGray !default;
+$link-color: $HEX-LinkHover-Color !default;
+
+// Typography
+$font-color_a: $HEX-Salmon-Dark !default;
+$font-color_b: $HEX-Pure-White !default;
+
+@font-face {
+    font-family: DancingScript;
+    src: url('../fonts/DancingScript-Regular.otf');
+}
+@font-face {
+    font-family: Oswald;
+    src: url('../fonts/Oswald-Regular.ttf');
+}
+
+$font-family-navigation:'DancingScript', sans-serif;
+$font-family-headline:'DancingScript', sans-serif;
+$font-family-copy:'Oswald', sans-serf;
+$default-font-size_content:15px;
+$default-font-size_headline:25px;
+$nav-bg-color:$RGBA-Salmon-Flat;
+$nav-font-color:$HEX-Beige;
+$nav-font-size:28px;
+$default-line-height: 1.5;
+$heading-line-height: 1.2;
+//Grid Variables
+//$container-width: 1420px !default;
+
+$container-width: 100% !default;
+$container-width-larger-than-mobile: 85% !default;
+$container-width-larger-than-phablet: 80% !default;
+$total-columns: 12 !default;
+$column-width: 100 / $total-columns !default; // calculates individual column width based off of # of columns
+$column-margin: 4% !default; // space between columns
+// Misc
+$global-radius: 4px !default;

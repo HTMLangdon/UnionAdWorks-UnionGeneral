@@ -1,0 +1,277 @@
+/*------------------- */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/* ------------------- <skeleton list files> */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+ul {
+    list-style: none;
+}
+ol {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+ul {
+    padding-left: 0;
+    margin-top: 0;
+    ul,
+    ol {
+        margin: 1.5rem 0 1.5rem 3rem;
+        font-size: 90%;
+    }
+}
+ol {
+    ol,
+    ul {
+        margin: 1.5rem 0 1.5rem 3rem;
+        font-size: 90%;
+    }
+}
+li {
+    margin-bottom: 1rem;
+}
+
+/* ------------------------------- */
+
+
+/* ------------------------------- */
+
+
+/*        <Navigation Code>        */
+
+
+/* ------------------------------- */
+
+
+/* ------------------------------- */
+
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: $nav-bg-color;
+    font-family: $font-family-navigation;
+    font-size: $nav-font-size;
+    height: 65px;
+    z-index: 100;
+    top:0px;
+    
+    
+    ul .navigation-main {
+        text-align: right;
+        .section-link {
+            cursor: pointer;
+            display: inline-block;
+//            padding: 0 0 0 3rem;
+            a {
+                color: $nav-font-color !important;
+                font-size: $nav-font-size !important;
+                text-decoration: none;
+                &.nav-title {
+                    font-size: $nav-font-size !important;
+                    color: $nav-font-color !important;
+                }
+            }
+        }
+        &:last-child {
+            padding: 0 7rem 0 3rem;
+        }
+    }
+}
+// Navigation Variables
+$content-width: 100%;
+$breakpoint: 403px;
+$nav-height: 70px;
+// Logo and branding
+.navigation-logo {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+    line-height: $nav-height;
+    text-transform: uppercase;
+    font-size: 1.4em;
+
+}
+
+
+// Navigation 
+nav {
+    float: right;
+    ul {
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            display: block;
+            float: left;
+            position: relative;
+                         cursor: pointer;
+
+            a,
+            a:visited {
+                            cursor: pointer;
+
+                display: block;
+                padding: 0 20px;
+                text-decoration: none;
+                &:hover {
+                }
+                &:not(:only-child):after {
+                    padding-left: 4px;
+                    content: ' ▾';
+                }
+            } // Dropdown list
+            ul li {
+                min-width: 190px;
+                display: block;
+                a {
+                    padding: 15px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+
+// Binds to JS Toggle
+.nav-mobile-button {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: $nav-height;
+    width: $nav-height;
+}
+@media only screen and (max-width: $breakpoint) {
+    // Hamburger nav visible on mobile only
+    .nav-mobile-button {
+        display: block;
+    }
+    nav {
+        width: 100%;
+        padding: $nav-height 0 15px;
+        ul {
+            display: none;
+            li {
+                float: none;
+                a {
+                    padding: 15px;
+                    line-height: 20px;
+                }
+                ul li a {
+                    padding-left: 30px;
+                }
+            }
+        }
+    }
+    .nav-dropdown {
+        position: static;
+    }
+}
+@media screen and (min-width: $breakpoint) {
+    .navigation-main ul {
+        display: block !important;
+    }
+}
+#btn-hamurberX {
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+    span,
+    span:before,
+    span:after {
+        cursor: pointer;
+        border-radius: 1px;
+        height: 5px;
+        width: 35px;
+        background: $nav-font-color;
+        position: absolute;
+        display: block;
+        content: '';
+        transition: all 300ms ease-in-out;
+    }
+    span:before {
+        top: -10px;
+    }
+    span:after {
+        bottom: -10px;
+    }
+    &.active span {
+        background-color: transparent;
+        &:before,
+        &:after {
+            top: 0;
+        }
+        &:before {
+            transform: rotate(45deg);
+        }
+        &:after {
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+/*        </Navigation Code>        */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/* ------------------- </skeleton list files> */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/*------------------- */
+
+
+/*------------------- */

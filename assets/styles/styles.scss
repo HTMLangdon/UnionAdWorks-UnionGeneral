@@ -1,0 +1,60 @@
+/* IMPORT RESET */
+
+//@import url("html5reset.css");
+
+/* core css inside template-base. any root section styles or globally applied section styles etc */
+
+@import "skeleton.scss";
+* {
+    font-family: $font-family-copy;
+    font-size: $default-font-size_content;
+}
+
+.push {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+    .push {
+        display: none;
+    }
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    //  background: url('apple-touch-icon.png') no-repeat center center;
+    color: $HEX-Pure-White;
+}
+
+header {
+    //    line-height: 15em;
+    text-align: left;
+    background: $RGBA-Salmon-Flat;
+    a {
+        &.nav-title {}
+    }
+}
+
+footer {
+    line-height: 15em;
+    text-align: center;
+    background: none;
+}
+
+
+
+
+li.post.facebook{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    
+}
+//
+//
+//section.home {
+//    background-color: beige;
+//    div.section-background {}
+//}
