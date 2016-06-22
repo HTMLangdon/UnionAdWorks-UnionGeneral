@@ -51,7 +51,14 @@
 
     <script src=""></script>
     <script type="text/javascript">
+        $(document).ready(function(e) {
+            //            $('.fullBrowserSections').fullpage({
+            //                anchors: ['sHome', 'sAbout', 'thirdPage', 'fourthPage', 'lastPage'],
+            //                menu: '.navigation-main ul'
+            //            });
 
+
+        });
 
     </script>
 
@@ -61,6 +68,9 @@
 			 var console = { log: function() {} };
 			 consoel.log("inTernet explorer detected.... nailing dow what version... ");
 <!--[ENDIF] -->
+</head>
+
+<body>
 
     <header class="row">
         <div class="navigation-logo">
@@ -69,57 +79,8 @@
         <nav class="navigation-main">
             <div class="nav-mobile-button"><a id="btn-hamurberX" href="#!"><span></span></a></div>
             <ul>
-                <!--
-                <li data-menuanchor="sHome" class="main-nav-item">
-                    <a href="index.html#sHomeContets" class="nav-title">Home</a>
-                </li>
-                <li data-menuanchor="sAbout_a" class="main-nav-item">
-                    <a href="index.html#sAboutContents_a" class="nav-title">About Us</a>
-                </li>
-                <li data-menuanchor="sAbout_b" class="main-nav-item">
-                    <a href="index.html#sAboutContents_b" class="nav-title">Cupcakery</a>
-                </li>
-                <li data-menuanchor="sBoutique" class="main-nav-item">
-                    <a href="index.html#sBoutiqueContents" class="nav-title">Boutique</a>
-                </li>
-                <li data-menuanchor="sNews" class="main-nav-item">
-                    <a href="index.html#sNewsContents" class="nav-title">News</a>
-                </li>
-                <li data-menuanchor="sContact" class="main-nav-item">
-                    <a href="index.html#sContactContents" class="nav-title">Contact Us</a>
-                </li>
--->
-
-
-
-<!--
 
                 <li data-menuanchor="sHome" class="main-nav-item">
-                    <a href="#sHome" class="nav-title">Home</a>
-                </li>
-                <li data-menuanchor="sAbout_a" class="main-nav-item">
-                    <a href="#sAboutContents_a" class="nav-title">About Us</a>
-                </li>
-                <li data-menuanchor="sAbout_b" class="main-nav-item">
-                    <a href="#sCupcakery" class="nav-title">Cupcakery</a>
-                </li>
-                <li data-menuanchor="sBoutique" class="main-nav-item">
-                    <a href="#sBoutique" class="nav-title">Boutique</a>
-                </li>
-
-                <li data-menuanchor="sNews" class="main-nav-item">
-                    <a href="#sNews" class="nav-title">News</a>
-                </li>
-                <li data-menuanchor="sContact" class="main-nav-item">
-                    <a href="#sContact" class="nav-title">Contact Us</a>
-                </li>
--->
-                
-                
-                
-                
-                
-               <li data-menuanchor="sHome" class="main-nav-item">
                     <a href="#sHome" class="nav-title">Home</a>
                 </li>
                 <li data-menuanchor="sAbout_a" class="main-nav-item">
@@ -139,6 +100,19 @@
                 </li>
             </ul>
         </nav>
+<!--
+
+
+            <ul>
+                <li data-menuanchor="sAbout_b" class="main-nav-item" style="position:absolute; top:-99999px; left:-99999px">
+                    <a href="#sAbout_b" class="nav-title">About Us</a>
+                </li>
+                <li data-menuanchor="sCupcakeryGallery" class="main-nav-item"style="position:absolute; top:-99999px; left:-99999px">
+                    <a href="#sCupcakeryGallery" class="nav-title">About Us</a>
+                </li>
+            </ul>
+-->
+
     </header>
 
     <div id="footer">Footer</div>
@@ -162,15 +136,6 @@
     <main class="fullBrowserSections">
 
 
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <div id="sHomeContents"></div>
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
         <section data-anchor="sHome" class="home-contents section">
 
             <div class="slide">
@@ -186,20 +151,7 @@
             </div>
         </section>
 
-
-
-
-
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <div id="sAboutContents_a"></div>
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <section data-anchor="sCONTENT_ANCHOR_HERE" class="about-a-contents section">
+        <section data-anchor="sAbout_a" class="about-a-contents section">
             <div class="slide gradient-3band">
                 <div class="midground-element row">
                     <div class="bird-image two-thirds column offset-by-two">
@@ -209,7 +161,6 @@
 
                 <div class="content row">
                     <div class="six columns offset-by-three">
-                        content start
                         <h1 class="headline">Union General is a Modern ‘General Store’</h1>
                         <p class="copy">The Union General offers a largesse arrangement of home goods, kids items, bath+body and baked goods in a cozy, homey, bite-size setting. Housed since 1997 in an 1850 parsonage in historic downtown Clarkston, the Clarkston Union and the Union Woodshop's sister store is filled with old school charm and curiosities edited with a whimsical yet focused eye. Pop in for a cheeky card and leave with a freshly baked cupcake, bubble bath, cookbook or toy harmonica!
                     </div>
@@ -217,17 +168,7 @@
             </div>
         </section>
 
-
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <div id="sAboutContents_b"></div>
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <section data-anchor="sCONTENT_ANCHOR_HERE" class="about-b-contents section">
+        <section data-anchor="sAbout_b" class="about-b-contents section">
             <div class="slide">
                 <div class="content row">
                     <div class="six columns offset-by-three">
@@ -238,16 +179,6 @@
             </div>
         </section>
 
-
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <div id="sCupcakeryContents"></div>
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
         <section data-anchor="sCupcakery" class="cupcakery-contents section row">
             <div class="slide">
                 <div class="cupcake-image seven columns offset-by-one">
@@ -279,19 +210,7 @@
 
         </section>
 
-
-
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <div id="sCupcakeryGalleryContents"></div>
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <section class="cupcakery-gallery-contents section">
-<!--        <section data-anchor="" class="cupcakery-gallery-contents section">-->
+        <section data-anchor="sCupcakeryGallery" class="sCupcakeryGallery cupcakery-gallery-contents section">
             <div class="slide">
                 <div class="content">
                     <ul class="slides-container">
@@ -439,16 +358,6 @@
             </div>
         </section>
 
-
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <div id="sBoutiqueContents"></div>
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
         <section data-anchor="sBoutique" class="boutique-contents section">
             <div class="slide">
                 <div class="content row">
@@ -460,15 +369,6 @@
             </div>
         </section>
 
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <div id="sNewsContents"></div>
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
         <section data-anchor="sNews" class="news-contents section">
             <div class="slide">
                 <div class="content row">
@@ -531,17 +431,6 @@
 
             </div>
         </section>
-
-
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <div id="sContactContents"></div>
-        <!--            -->
-        <!--            -->
-        <!--            -->
-        <!--            -->
 
         <section data-anchor="sContact" class="contact-contents section">
             <div class="slide">
@@ -625,6 +514,6 @@
 
     </main>
 
-    </body>
+</body>
 
 </html>
