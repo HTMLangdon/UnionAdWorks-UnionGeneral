@@ -1648,10 +1648,11 @@ IScroll.prototype = {
                 this._key(e);
                 break;
             case 'click':
-                if ( this.enabled && !e._constructed ) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                }
+              
+//                if ( this.enabled && !e._constructed ) {
+//                    e.preventDefault();
+//                    e.stopPropagation();
+//                }
                 break;
         }
     }
