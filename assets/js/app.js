@@ -41,20 +41,10 @@ function setupFullBrowserSections() {
 
 
     $('.fullBrowserSections').fullpage({
-        normalScrollElements: '.sCupcakery, .cupcakery-gallery-contents',
-        scrollBar: true,
-        scrollOverflow: true,
-        scrollOverflowOptions: {
-            scrollbars: true,
-            mouseWheel: true,
-            hideScrollbars: false,
-            fadeScrollbars: false,
-            disableMouse: true
-        }
+        autoScrolling: false
     });
 
 }
-
 
 
 
