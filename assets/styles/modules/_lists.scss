@@ -1,4 +1,5 @@
 /* ------------------- <skeleton list files> */
+
 ul {
     list-style: none;
 }
@@ -34,44 +35,28 @@ li {
 
 
 /*        <Navigation Code>        */
+
+
 /* ------------------------------- */
+
+
 /* ------------------------------- */
+
 header {
     position: fixed;
     width: 100%;
     background-color: $nav-bg-color;
-    font-family: $font-family-navigation;
-    font-size: $nav-font-size;
+//    font-family: $font-family-navigation;
+//    font-size: $nav-font-size;
     height: 65px;
     z-index: 100;
-    top:0px;
-    
-    
-    ul .navigation-main {
-        text-align: right;
-        .section-link {
-            cursor: pointer;
-            display: inline-block;
-//            padding: 0 0 0 3rem;
-            a {
-                color: $nav-font-color !important;
-                font-size: $nav-font-size !important;
-                text-decoration: none;
-                &.nav-title {
-                    font-size: $nav-font-size !important;
-                    color: $nav-font-color !important;
-                }
-            }
-        }
-        &:last-child {
-            padding: 0 7rem 0 3rem;
-        }
-    }
+    top: 0px;
 }
 // Navigation Variables
 $content-width: 100%;
 $breakpoint: 811px;
 $nav-height: 70px;
+
 // Logo and branding
 .navigation-logo {
     position: absolute;
@@ -80,14 +65,13 @@ $nav-height: 70px;
     line-height: $nav-height;
     text-transform: uppercase;
     font-size: 1.4em;
-
 }
-
 
 // Navigation 
 nav {
     background-color: #8b7980;
     float: right;
+    
     ul {
         display: block;
         list-style: none;
@@ -97,34 +81,33 @@ nav {
             display: block;
             float: left;
             position: relative;
-                         cursor: pointer;
-
+            cursor: pointer;
+            top:10px;
             a,
             a:visited {
-                            cursor: pointer;
-
+                cursor: pointer;
                 display: block;
                 padding: 0 20px;
                 text-decoration: none;
-                &:hover {
+
+                &.nav-title {
+                    font-size: $nav-font-size !important;
+                    color: $nav-font-color !important;
+                    font-family: $font-family-navigation !important;
+                    
                 }
+   
+                
+                
+                &:hover {}
                 &:not(:only-child):after {
                     padding-left: 4px;
                     content: ' ▾';
                 }
-            } // Dropdown list
-            ul li {
-                min-width: 190px;
-                display: block;
-                a {
-                    padding: 15px;
-                    line-height: 20px;
-                }
-            }
+            } 
         }
     }
 }
-
 // Binds to JS Toggle
 .nav-mobile-button {
     display: none;
@@ -133,6 +116,9 @@ nav {
     right: 0;
     height: $nav-height;
     width: $nav-height;
+}
+nav.navigation-main ul li.main-nav-item a.nav-title:hover {
+    color: $nav-font-color-hover !important;
 }
 @media only screen and (max-width: $breakpoint) {
     // Hamburger nav visible on mobile only
@@ -145,6 +131,7 @@ nav {
         ul {
             display: none;
             li {
+                
                 float: none;
                 a {
                     padding: 15px;
@@ -206,5 +193,6 @@ nav {
 }
 
 /*        </Navigation Code>        */
-/* ------------------- </skeleton list files> */
 
+
+/* ------------------- </skeleton list files> */

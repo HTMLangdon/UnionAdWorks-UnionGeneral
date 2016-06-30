@@ -1,9 +1,9 @@
 /*
 Error: File to import not found or unreadable: settings.
        Load paths:
-         /Users/langdon/Desktop/UGen-v1 2/assets/styles
+         /Users/langdon/Repositories/Union-AdWorks/UnionGeneral.git/assets/styles
          Sass::Globbing::Importer
-        on line 3 of /Users/langdon/Desktop/UGen-v1 2/assets/styles/popups.scss
+        on line 3 of /Users/langdon/Repositories/Union-AdWorks/UnionGeneral.git/assets/styles/popups.scss
 
 1: /* Magnific Popup CSS *\/
 2: 
@@ -15,7 +15,7 @@ Error: File to import not found or unreadable: settings.
 8: //
 
 Backtrace:
-/Users/langdon/Desktop/UGen-v1 2/assets/styles/popups.scss:3
+/Users/langdon/Repositories/Union-AdWorks/UnionGeneral.git/assets/styles/popups.scss:3
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:45:in `import'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -50,4 +50,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: settings.\A        Load paths:\A          /Users/langdon/Desktop/UGen-v1 2/assets/styles\A          Sass::Globbing::Importer\A         on line 3 of /Users/langdon/Desktop/UGen-v1 2/assets/styles/popups.scss\A \A 1: /* Magnific Popup CSS */\A 2: \A 3: @import \"settings\";\A 4: \A 5: ////////////////////////\A 6: //\A 7: // Contents:\A 8: //"; }
+  content: "Error: File to import not found or unreadable: settings.\A        Load paths:\A          /Users/langdon/Repositories/Union-AdWorks/UnionGeneral.git/assets/styles\A          Sass::Globbing::Importer\A         on line 3 of /Users/langdon/Repositories/Union-AdWorks/UnionGeneral.git/assets/styles/popups.scss\A \A 1: /* Magnific Popup CSS */\A 2: \A 3: @import \"settings\";\A 4: \A 5: ////////////////////////\A 6: //\A 7: // Contents:\A 8: //"; }

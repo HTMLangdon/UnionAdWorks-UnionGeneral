@@ -10,14 +10,9 @@ body {
     font-size: 1.5em; // currently ems cause chrome bug misinterpreting rems on body element
     line-height: 1.6;
     //  
-    color: $font-color_a;
-    p.copy {
-        font-family: $font-family-copy;
-    }
-    h1.headline {
-        font-family: $font-family-headline;
-    }
 }
+
+
 html,
 body {
     //    height: 100% !important;
@@ -96,13 +91,30 @@ li {
         width: 100%;
     }
 }
+
+
+
+
+
+
+.sCupcakeryGallery .slide .content
+{
+        p.copy
+    {
+        color:$HEX-Salmon-Flat;
+        padding: 0px 10px;
+    }
+    
+}
+
+
 .boutique-contents .slide {
     color: $HEX-Pure-White;
-    background-color: beige;
+//    background-color: beige;
     background-image: url(../slices/background-image-sBoutique-a.jpg);
 }
 .whats-new-news {
-    background-color: lightblue;
+//    background-color: lightblue;
 }
 .contact-contents {
     color: $HEX-Pure-White;
@@ -122,6 +134,7 @@ ul {
         }
     }
 }
+
 .gradient-3band {
     background: rgba(119, 183, 228, 0.1);
     background: -moz-linear-gradient(top, rgba(119, 183, 228, 0.1) 17%, rgba(119, 183, 228, 0.1) 20%, rgba(255, 163, 92, 0.1) 31%, rgba(255, 163, 92, 0.1) 40%, rgba(255, 163, 92, 0.1) 51%, rgba(255, 163, 92, 0.1) 64%, rgba(238, 223, 105, 0.1) 79%, rgba(235, 235, 107, 0.1) 82%);
@@ -134,12 +147,8 @@ ul {
 }
 // Links
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-a {
-    color: $link-color;
-    &:hover {
-        color: darken($link-color, 5%);
-    }
-}
+
+
 // Misc
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 hr {
@@ -148,7 +157,6 @@ hr {
     border-width: 0;
     border-top: 1px solid $HEX-LightGray;
 }
-
 .post.facebook img {}
 .cupcakes-n-sweets {
     paddig-top: 40px;

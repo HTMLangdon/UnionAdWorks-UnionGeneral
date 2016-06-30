@@ -1,17 +1,9 @@
 
-/*------------------- */
-/*------------------- */
-/*------------------- */
-/*------------------- */
-/*------------------- */
+
 
 /* ------------------- </skeleton buttons files> */
 
-/*------------------- */
-/*------------------- */
-/*------------------- */
-/*------------------- */
-/*------------------- */
+
 
 .button,
 button {
@@ -112,8 +104,8 @@ input {
 .button.button-primary:hover,
 button.button-primary:hover {
   color: #fff;
-  background-color: $link-color;
-  border-color: $link-color;
+  background-color: $nav-font-color;
+  border-color: $nav-font-color;
 }
 
 input {
@@ -121,16 +113,16 @@ input {
   &[type="reset"].button-primary:hover,
   &[type="button"].button-primary:hover {
     color: #fff;
-    background-color: $link-color;
-    border-color: $link-color;
+    background-color: $nav-font-color;
+    border-color: $nav-font-color;
   }
 }
 
 .button.button-primary:focus,
 button.button-primary:focus {
   color: #fff;
-  background-color: $link-color;
-  border-color: $link-color;
+  background-color: $nav-font-color;
+  border-color: $nav-font-color;
 }
 
 input {
@@ -138,8 +130,8 @@ input {
   &[type="reset"].button-primary:focus,
   &[type="button"].button-primary:focus {
     color: #fff;
-    background-color: $link-color;
-    border-color: $link-color;
+    background-color: $nav-font-color;
+    border-color: $nav-font-color;
   }
   &[type="email"],
   &[type="number"],

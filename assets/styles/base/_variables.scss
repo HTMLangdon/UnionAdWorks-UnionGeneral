@@ -33,14 +33,16 @@ $HEX-Salmon-Flat:#8B7980;
 $HEX-Salmon-Dark:#4D3C42;
 $HEX-Pure-White:#ffffff;
 $HEX-Beige:#E6D1B7;
-$HEX-Seafoam:#D2EAEA;
+$HEX-Seafoam:#D5EDED;
 
-$HEX-LinkHover-Color:$HEX-Seafoam;
+//$HEX-Seafoam:#D2EAEA;
+
+
+
 
 $primary-color: $HEX-Salmon-Flat !default;
 $secondary-color: $HEX-Pure-White !default;
 $border-color: $HEX-LightGray !default;
-$link-color: $HEX-LinkHover-Color !default;
 
 // Typography
 $font-color_a: $HEX-Salmon-Dark !default;
@@ -52,7 +54,7 @@ $font-color_b: $HEX-Pure-White !default;
 }
 @font-face {
     font-family: Oswald;
-    src: url('../fonts/Oswald-Regular.ttf');
+    src: url('../fonts/Oswald-Light.ttf');
 }
 
 $font-family-navigation:'DancingScript', sans-serif;
@@ -62,6 +64,7 @@ $default-font-size_content:15px;
 $default-font-size_headline:25px;
 $nav-bg-color:$RGBA-Salmon-Flat;
 $nav-font-color:$HEX-Beige;
+$nav-font-color-hover:$HEX-Seafoam;
 $nav-font-size:28px;
 $default-line-height: 1.5;
 $heading-line-height: 1.2;
