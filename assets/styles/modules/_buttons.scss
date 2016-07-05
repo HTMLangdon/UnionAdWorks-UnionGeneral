@@ -96,7 +96,7 @@ input {
   &[type="reset"].button-primary,
   &[type="button"].button-primary {
     color: #fff;
-    background-color: $primary-color;
+    background-color: $HEX-Salmon-Dark;
     border-color: $primary-color;
   }
 }
@@ -104,25 +104,51 @@ input {
 .button.button-primary:hover,
 button.button-primary:hover {
   color: #fff;
-  background-color: $nav-font-color;
-  border-color: $nav-font-color;
+  background-color: $Button-Color-Main-Hover;
+  border-color: $Button-Color-Main-Hover;
+}
+input {
+    &[type="submit"].button-primary,
+    &[type="reset"].button-primary,
+    &[type="button"].button-primary {
+        &:hover {
+            color: #fff;
+            background-color: $Button-Color-Main-Hover;
+            border-color: $Button-Color-Main-Hover;
+        }
+        &:focus
+        {
+            color: #fff;
+            background-color: $Button-Color-Main-Hover;
+            border-color: $Button-Color-Main-Hover;
+        }
+        &:active
+        {
+            color: #fff;
+            background-color: $Button-Color-Main-Click;
+            border-color: $Button-Color-Main-Click;
+        }
+        &:visited                                             
+        {
+            color: #fff;
+            background-color: $Button-Color-Main;
+            border-color: $Button-Color-Main;
+        }
+    }
 }
 
-input {
-  &[type="submit"].button-primary:hover,
-  &[type="reset"].button-primary:hover,
-  &[type="button"].button-primary:hover {
-    color: #fff;
-    background-color: $nav-font-color;
-    border-color: $nav-font-color;
-  }
-}
 
 .button.button-primary:focus,
 button.button-primary:focus {
   color: #fff;
-  background-color: $nav-font-color;
-  border-color: $nav-font-color;
+  background-color: $Button-Color-Main;
+  border-color: $Button-Color-Main;
+}
+.button.button-primary:blur,
+button.button-primary:blur {
+  color: #fff;
+  background-color: $Button-Color-Main;
+  border-color: $Button-Color-Main;
 }
 
 input {
@@ -130,8 +156,8 @@ input {
   &[type="reset"].button-primary:focus,
   &[type="button"].button-primary:focus {
     color: #fff;
-    background-color: $nav-font-color;
-    border-color: $nav-font-color;
+    background-color: $Button-Color-Main;
+    border-color: $Button-Color-Main;
   }
   &[type="email"],
   &[type="number"],

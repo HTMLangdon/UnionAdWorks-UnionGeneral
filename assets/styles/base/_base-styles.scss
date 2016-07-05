@@ -50,13 +50,21 @@ section,
 }
 .about-a-contents {
     position: relative;
-    max-height: 600px;
+    //    max-height: 600px;
     color: $HEX-Salmon-Dark;
 }
 .about-b-contents {
     .slide {
         background-image: url("../slices/background-image-sAbout-b.jpg");
         color: $HEX-Pure-White;
+        .content {
+            h1.headline {
+                color: $HEX-Pure-White;
+            }
+            h2.headline {
+                color: $HEX-Pure-White;
+            }
+        }
     }
 }
 .cupcakery-contents {
@@ -104,23 +112,36 @@ li {
     color: $HEX-Pure-White;
     //    background-color: beige;
     background-image: url(../slices/background-image-sBoutique-a.jpg);
+    h1.headline.page-title {
+        color: $HEX-Pure-White;
+    }
+    h2.headline {
+        color: $HEX-Pure-White;
+    }
 }
 .news-contents {
-    h1.headline {
-        color: $HEX-Salmon-Flat;
-    }
-    p.copy {
-        color: $HEX-Salmon-Flat;
+    .slide {
+        .content {
+            h1.headline {
+                color: $HEX-Salmon-Flat;
+            }
+            p.copy {
+                color: $HEX-Salmon-Flat;
+            }
+        }
     }
 }
 .contact-contents {
-    color: $HEX-Pure-White;
-    background-color: $HEX-Salmon-Dark;
-    .logo-container {
-        margin: 0px 0px 30px 0px;
-    }
-    h1.headline {
-        text-align: left;
+    .slide {
+        color: $HEX-Pure-White;
+        background-color: $HEX-Salmon-Flat;
+        .logo-container {
+            margin: 0px 0px 30px 0px;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+        }
     }
 }
 .contact form input {
@@ -131,9 +152,9 @@ li {
     text-align: center;
     div.social-media {
         ul.sm-icons {
-            margin: 0 0 0 0;
-            padding: 0 0 0 0;
             li.icon {
+                padding: 2% 2% 2% 2%;
+                margin: 0 0 0 0;
                 display: inline-block;
                 a {
                     text-decoration: none;
@@ -174,8 +195,19 @@ hr {
 .cupcakes-n-sweets {
     //    paddig-top: 40px;
     margin-left: 2%;
-    top: 230px;
+    top: 0;
     position: relative;
+}
+.cupcake-image {
+    position: relative;
+    left: 0;
+}
+.cupcakes-n-sweets {
+    h1.headline {
+        text-align: center;
+    }
+    position: relative;
+    left: 0;
 }
 .newsletter-input-fName {}
 .newsletter-input-lName {}

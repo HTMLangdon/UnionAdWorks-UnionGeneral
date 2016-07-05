@@ -10,13 +10,11 @@ h6 {
     margin-bottom: 2rem;
     font-weight: 300;
 }
-
 //h1 {
 //    font-size: 4.0rem;
 //    line-height: 1.2;
 //    letter-spacing: -.1rem;
 //}
-
 h2 {
     font-size: 3.6rem;
     line-height: 1.25;
@@ -37,16 +35,11 @@ h5 {
     line-height: 1.5;
     letter-spacing: -.05rem;
 }
-
-
-
 h6 {
     font-size: 1.5rem;
     line-height: 1.6;
     letter-spacing: 0;
 }
-
-
 body {
     font-size: 1.5em; // currently ems cause chrome bug misinterpreting rems on body element
     line-height: 1.6;
@@ -55,11 +48,102 @@ body {
     p.copy {
         font-family: $font-family-copy;
     }
-    h1.headline {
-        font-family: $font-family-headline;
-        text-align: center;    
+    //these are alll mobile first styles
+    section {
+        .slide {
+            .content {
+                h1.headline {
+                    font-family: $font-family-headline-main !important;
+                    color: $HEX-Salmon-Flat;
+                    text-align: center;
+                    font-size:12px;
+                    margin: 0 0 0 0;
+                }
+                h2.headline {
+                    font-family: $font-family-headline-second !important;
+                    color: $HEX-Salmon-Flat;
+                    text-align: center;
+                    font-size:3.5rem;
+                }
+            }
+        }
+        &.contact-contents {
+            .content {
+                .form-container {
+                    h1.headline.join-mailing-list {
+                        text-align: left;
+                        font-family: $font-family-headline-second !important;
+                        font-size: 20px;
+                        color: $HEX-Pure-White;
+                    }
+                }
+            }
+        }
+        &.contact-contents {
+            .content {
+                .company-hours {
+                    h1.headline {
+                        text-align: left;
+                        color: $HEX-Pure-White;
+                        font-family: $font-family-headline-second !important;
+                    }
+                }
+            }
+        }
+        &.contact-contents {
+            .content {
+                .company-information {
+                    .vcard {
+                        h1.headline {
+                            font-family: $font-family-headline-second !important;
+                            color: $HEX-Pure-White;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
+
+
+
+
+
+
+
+
+/*  THIS IS FOR  THE JOIN THE MAILING LIST HEADLINE ON CONTACT PAGE - BREAKS FOR A MOMENT BEFORE BECMOING SMALLER */
+//
+//
+//@media (#{$bp-larger-than-desktophdPLUS35}) {
+//    //////
+//    body {
+//
+//        section {
+//            &.contact-contents {
+//                .content {
+//                    .form-container {
+//                        h1.headline.join-mailing-list {
+//                            text-align: left;
+//                            font-family: $font-family-headline-second !important;
+//                            font-size: 28px;
+//                            color: $HEX-Pure-White;
+//                        }
+//                    }
+//                }
+//            }
+//        }
+//    }
+//    //////
+//}
+//
+
+
+
+
+
+
 
 
 // Larger than phablet

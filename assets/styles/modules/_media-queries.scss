@@ -13,11 +13,6 @@
 div.content {
     padding: 5%;
 }
-.cupcakes-n-sweets {
-    h1.headline {
-        text-align: center;
-    }
-}
 form#email-subscription-signup {
     position: relative;
     top: 0;
@@ -82,7 +77,7 @@ form#email-subscription-signup {
     }
     form#email-subscription-signup {
         position: relative;
-        top: 105px;
+        //        top: 105px;
     }
     /*  
         .contact-contents .content .company-information .vcard {
@@ -113,40 +108,82 @@ form#email-subscription-signup {
 // Larger than tablet
 @media (#{$bp-larger-than-tablet}) {}
 @media (#{$bp-larger-than-tabletPLUS50px}) {
-    
-//    .contact-contents .content .company-information .vcard {
-        float: none;
-//        margin: 0 0 20px 20px;
-//        h1.headline {
-//            font-size: 3rem;
-
-//        }
-//    }
-//    .contact-contents .content .company-hours {
-        float: none;
-//        margin-right: 20px;
-//        h1.headline {
-//            font-size: 17px;
-
-//        }
-//        .hours-of-operation {
-//            li {
-//                margin-bottom: 0;
-//                span {
-//                    font-size: 14px;
-//                }
-//            }
-//        }
-//    }
-    
+    //    .contact-contents .content .company-information .vcard {
+    //    float: none;
+    //        margin: 0 0 20px 20px;
+    //        h1.headline {
+    //            font-size: 3rem;
+    //        }
+    //    }
+    //    .contact-contents .content .company-hours {
+    //    float: none;
+    //        margin-right: 20px;
+    //        h1.headline {
+    //            font-size: 17px;
+    //        }
+    //        .hours-of-operation {
+    //            li {
+    //                margin-bottom: 0;
+    //                span {
+    //                    font-size: 14px;
+    //                }
+    //            }
+    //        }
+    //    }
 }
-
-
-
 // Larger than desktop
-@media (#{$bp-larger-than-desktop}) {}
+@media (#{$bp-larger-than-desktop}) {
+    .cupcake-image {
+        position: relative;
+        left: -50px;
+    }
+    .cupcakes-n-sweets {
+        position: relative;
+        left: -30px;
+        top: 100px;
+        margin: 0 0 0 2%;
+    }
+}
+//anything larger than 1025px
+@media (#{$bp-larger-than-desktopPLUS25px}) {
+    body {
+        font-size: 1.5em; // currently ems cause chrome bug misinterpreting rems on body element
+        line-height: 1.6;
+        //  
+        color: $font-color_a;
+        p.copy {
+            font-family: $font-family-copy;
+        }
+        section {
+            .slide {}
+            &.contact-contents {
+                .content {
+                    .form-container {
+                        h1.headline.join-mailing-list {
+                            text-align: left;
+                            font-family: $font-family-headline-second !important;
+                            font-size: 36px;
+                            color: $HEX-Pure-White;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 // Larger than Desktop HD
-@media (#{$bp-larger-than-desktophd}) {}
+@media (#{$bp-larger-than-desktophd}) {
+    .cupcake-image {
+        position: relative;
+        left: 0;
+    }
+    .cupcakes-n-sweets {
+        position: relative;
+        left: -30px;
+        top: 230px;
+        margin: 0 0 0 2%;
+    }
+}
 
 /*------------------- */
 

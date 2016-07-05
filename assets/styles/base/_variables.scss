@@ -21,8 +21,10 @@ $bp-larger-than-mobile: "min-width: 405px" !default;
 $bp-larger-than-phablet: "min-width: 550px" !default;
 $bp-larger-than-tablet: "min-width: 750px" !default;
 $bp-larger-than-tabletPLUS50px: "min-width: 800px" !default;
+$bp-larger-than-desktopPLUS25px: "min-width: 1025px" !default;
 $bp-larger-than-desktop: "min-width: 1000px" !default;
 $bp-larger-than-desktophd: "min-width: 1200px" !default;
+$bp-larger-than-desktophdPLUS35: "min-width: 1235px" !default;
 
 // Colors
 $RGBA-Salmon-Flat:rgba(139, 121, 128, 1);
@@ -36,6 +38,11 @@ $HEX-Pure-White:#ffffff;
 $HEX-Beige:#E6D1B7;
 $HEX-Seafoam:#D5EDED;
 
+$Button-Color-Main:$HEX-Salmon-Dark;
+$Button-Color-Main-Click:darken($HEX-Salmon-Dark,15%);
+$Button-Color-Main-Hover:lighten($HEX-Salmon-Dark,15%);
+
+
 //$HEX-Seafoam:#D2EAEA;
 
 
@@ -48,7 +55,7 @@ $border-color: $HEX-LightGray !default;
 // Typography
 $font-color_a: $HEX-Salmon-Dark !default;
 $font-color_b: $HEX-Pure-White !default;
-
+$font-color_c: $HEX-Salmon-Flat !default;
 @font-face {
     font-family: DancingScript;
     src: url('../fonts/DancingScript-Regular.otf');
@@ -59,10 +66,15 @@ $font-color_b: $HEX-Pure-White !default;
 }
 
 $font-family-navigation:'DancingScript', sans-serif;
-$font-family-headline:'DancingScript', sans-serif;
+$font-family-headline-main:'Oswald', sans-serif;
+$font-family-headline-second:'DancingScript', sans-serif;
 $font-family-copy:'Oswald', sans-serf;
+
+//content text types' font sizes:
 $default-font-size_content:15px;
 $default-font-size_headline:25px;
+
+//navigation font/text size/color:
 $nav-bg-color:$RGBA-Salmon-Flat;
 $nav-font-color:$HEX-Beige;
 $nav-font-color-hover:$HEX-Seafoam;
@@ -71,6 +83,7 @@ $default-line-height: 1.5;
 $heading-line-height: 1.2;
 //Grid Variables
 //$container-width: 1420px !default;
+
 
 $container-width: 100% !default;
 $container-width-larger-than-mobile: 85% !default;

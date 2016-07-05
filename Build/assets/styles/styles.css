@@ -236,12 +236,15 @@ section,
 
 .about-a-contents {
   position: relative;
-  max-height: 600px;
   color: #4D3C42; }
 
 .about-b-contents .slide {
   background-image: url("../slices/background-image-sAbout-b.jpg");
   color: #ffffff; }
+  .about-b-contents .slide .content h1.headline {
+    color: #ffffff; }
+  .about-b-contents .slide .content h2.headline {
+    color: #ffffff; }
 
 .cupcakery-contents {
   color: #8B7980;
@@ -275,19 +278,24 @@ li.cupcake img {
 .boutique-contents .slide {
   color: #ffffff;
   background-image: url(../slices/background-image-sBoutique-a.jpg); }
+  .boutique-contents .slide h1.headline.page-title {
+    color: #ffffff; }
+  .boutique-contents .slide h2.headline {
+    color: #ffffff; }
 
-.news-contents h1.headline {
+.news-contents .slide .content h1.headline {
   color: #8B7980; }
-.news-contents p.copy {
+.news-contents .slide .content p.copy {
   color: #8B7980; }
 
-.contact-contents {
+.contact-contents .slide {
   color: #ffffff;
-  background-color: #4D3C42; }
-  .contact-contents .logo-container {
+  background-color: #8B7980; }
+  .contact-contents .slide .logo-container {
     margin: 0px 0px 30px 0px; }
-  .contact-contents h1.headline {
-    text-align: left; }
+  .contact-contents .slide .content {
+    position: relative;
+    z-index: 1; }
 
 .contact form input {
   color: #8B7980; }
@@ -295,13 +303,12 @@ li.cupcake img {
 #footer {
   background-color: #4D3C42;
   text-align: center; }
-  #footer div.social-media ul.sm-icons {
+  #footer div.social-media ul.sm-icons li.icon {
+    padding: 2% 2% 2% 2%;
     margin: 0 0 0 0;
-    padding: 0 0 0 0; }
-    #footer div.social-media ul.sm-icons li.icon {
-      display: inline-block; }
-      #footer div.social-media ul.sm-icons li.icon a {
-        text-decoration: none; }
+    display: inline-block; }
+    #footer div.social-media ul.sm-icons li.icon a {
+      text-decoration: none; }
 
 ul.new-posts.post {
   margin: 0 0 0 0;
@@ -322,8 +329,18 @@ hr {
 
 .cupcakes-n-sweets {
   margin-left: 2%;
-  top: 230px;
+  top: 0;
   position: relative; }
+
+.cupcake-image {
+  position: relative;
+  left: 0; }
+
+.cupcakes-n-sweets {
+  position: relative;
+  left: 0; }
+  .cupcakes-n-sweets h1.headline {
+    text-align: center; }
 
 form#email-subscription-signup {
   position: relative;
@@ -421,10 +438,32 @@ body {
   color: #4D3C42; }
   body p.copy {
     font-family: "Oswald", sans-serf; }
-  body h1.headline {
-    font-family: "DancingScript", sans-serif;
-    text-align: center; }
+  body section .slide .content h1.headline {
+    font-family: "Oswald", sans-serif !important;
+    color: #8B7980;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 0 0 0; }
+  body section .slide .content h2.headline {
+    font-family: "DancingScript", sans-serif !important;
+    color: #8B7980;
+    text-align: center;
+    font-size: 3.5rem; }
+  body section.contact-contents .content .form-container h1.headline.join-mailing-list {
+    text-align: left;
+    font-family: "DancingScript", sans-serif !important;
+    font-size: 20px;
+    color: #ffffff; }
+  body section.contact-contents .content .company-hours h1.headline {
+    text-align: left;
+    color: #ffffff;
+    font-family: "DancingScript", sans-serif !important; }
+  body section.contact-contents .content .company-information .vcard h1.headline {
+    font-family: "DancingScript", sans-serif !important;
+    color: #ffffff;
+    text-align: left; }
 
+/*  THIS IS FOR  THE JOIN THE MAILING LIST HEADLINE ON CONTACT PAGE - BREAKS FOR A MOMENT BEFORE BECMOING SMALLER */
 @media (min-width: 550px) {
   h1 {
     font-size: 5.0rem; }
@@ -516,6 +555,9 @@ p {
 
   .four.columns {
     width: 30.6666666667%; }
+
+  .four-rounded.columns {
+    width: 24%; }
 
   .five.columns {
     width: 39.3333333333%; }
@@ -712,30 +754,48 @@ button.button-primary {
 
 input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
   color: #fff;
-  background-color: #8B7980;
+  background-color: #4D3C42;
   border-color: #8B7980; }
 
 .button.button-primary:hover,
 button.button-primary:hover {
   color: #fff;
-  background-color: #E6D1B7;
-  border-color: #E6D1B7; }
+  background-color: #785e67;
+  border-color: #785e67; }
 
 input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover {
   color: #fff;
-  background-color: #E6D1B7;
-  border-color: #E6D1B7; }
+  background-color: #785e67;
+  border-color: #785e67; }
+input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+  color: #fff;
+  background-color: #785e67;
+  border-color: #785e67; }
+input[type="submit"].button-primary:active, input[type="reset"].button-primary:active, input[type="button"].button-primary:active {
+  color: #fff;
+  background-color: #221a1d;
+  border-color: #221a1d; }
+input[type="submit"].button-primary:visited, input[type="reset"].button-primary:visited, input[type="button"].button-primary:visited {
+  color: #fff;
+  background-color: #4D3C42;
+  border-color: #4D3C42; }
 
 .button.button-primary:focus,
 button.button-primary:focus {
   color: #fff;
-  background-color: #E6D1B7;
-  border-color: #E6D1B7; }
+  background-color: #4D3C42;
+  border-color: #4D3C42; }
+
+.button.button-primary:blur,
+button.button-primary:blur {
+  color: #fff;
+  background-color: #4D3C42;
+  border-color: #4D3C42; }
 
 input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
   color: #fff;
-  background-color: #E6D1B7;
-  border-color: #E6D1B7; }
+  background-color: #4D3C42;
+  border-color: #4D3C42; }
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"] {
   height: 38px;
   padding: 6px 10px;
@@ -1072,9 +1132,6 @@ form {
 div.content {
   padding: 5%; }
 
-.cupcakes-n-sweets h1.headline {
-  text-align: center; }
-
 form#email-subscription-signup {
   position: relative;
   top: 0; }
@@ -1124,8 +1181,7 @@ form#email-subscription-signup {
     padding: 0; }
 
   form#email-subscription-signup {
-    position: relative;
-    top: 105px; }
+    position: relative; }
 
   /*  
       .contact-contents .content .company-information .vcard {
@@ -1152,9 +1208,38 @@ form#email-subscription-signup {
               }
           }
       } */ }
-@media (min-width: 800px) {
-  float: none;
-  float: none; }
+@media (min-width: 1000px) {
+  .cupcake-image {
+    position: relative;
+    left: -50px; }
+
+  .cupcakes-n-sweets {
+    position: relative;
+    left: -30px;
+    top: 100px;
+    margin: 0 0 0 2%; } }
+@media (min-width: 1025px) {
+  body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    color: #4D3C42; }
+    body p.copy {
+      font-family: "Oswald", sans-serf; }
+    body section.contact-contents .content .form-container h1.headline.join-mailing-list {
+      text-align: left;
+      font-family: "DancingScript", sans-serif !important;
+      font-size: 36px;
+      color: #ffffff; } }
+@media (min-width: 1200px) {
+  .cupcake-image {
+    position: relative;
+    left: 0; }
+
+  .cupcakes-n-sweets {
+    position: relative;
+    left: -30px;
+    top: 230px;
+    margin: 0 0 0 2%; } }
 /*------------------- */
 /*------------------- */
 /*------------------- */
@@ -1206,7 +1291,7 @@ body {
   width: 100%;
   height: 79px;
   background-color: #E6D1B7;
-  background-image: url("assets/slices/transition-image.jpg");
+  background-image: url("../slices/section-transition-helper.jpg");
   background-repeat: repeat-x; }
 
 header {
