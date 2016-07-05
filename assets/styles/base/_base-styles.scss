@@ -11,8 +11,6 @@ body {
     line-height: 1.6;
     //  
 }
-
-
 html,
 body {
     //    height: 100% !important;
@@ -36,8 +34,10 @@ section,
     //    max-width: 100%;
 }
 .home-contents {
-    background-image: url('../slices/background-image-sHome.jpg');
     color: $HEX-Salmon-Flat;
+    .slide {
+        background-image: url('../slices/background-image-sHome.jpg');
+    }
     .content-container {
         display: table;
         padding-top: 80px;
@@ -62,9 +62,12 @@ section,
 .cupcakery-contents {
     color: $HEX-Salmon-Flat;
     background-color: white;
+    h1.headline {
+        font-size: 30px;
+    }
     p {
         &.copy {
-            text-indent: 20px;
+            text-indent: 0px;
         }
     }
 }
@@ -91,30 +94,24 @@ li {
         width: 100%;
     }
 }
-
-
-
-
-
-
-.sCupcakeryGallery .slide .content
-{
-        p.copy
-    {
-        color:$HEX-Salmon-Flat;
+.sCupcakeryGallery .slide .content {
+    p.copy {
+        color: $HEX-Salmon-Flat;
         padding: 0px 10px;
     }
-    
 }
-
-
 .boutique-contents .slide {
     color: $HEX-Pure-White;
-//    background-color: beige;
+    //    background-color: beige;
     background-image: url(../slices/background-image-sBoutique-a.jpg);
 }
-.whats-new-news {
-//    background-color: lightblue;
+.news-contents {
+    h1.headline {
+        color: $HEX-Salmon-Flat;
+    }
+    p.copy {
+        color: $HEX-Salmon-Flat;
+    }
 }
 .contact-contents {
     color: $HEX-Pure-White;
@@ -122,19 +119,38 @@ li {
     .logo-container {
         margin: 0px 0px 30px 0px;
     }
+    h1.headline {
+        text-align: left;
+    }
 }
 .contact form input {
     color: $HEX-Salmon-Flat;
 }
-ul {
-    &.new-posts {
-        .post {
+#footer {
+    background-color: $HEX-Salmon-Dark;
+    text-align: center;
+    div.social-media {
+        ul.sm-icons {
             margin: 0 0 0 0;
             padding: 0 0 0 0;
+            li.icon {
+                display: inline-block;
+                a {
+                    text-decoration: none;
+                }
+            }
         }
     }
 }
-
+ul {
+    &.new-posts {
+        &.post {
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            display: inline-block;
+        }
+    }
+}
 .gradient-3band {
     background: rgba(119, 183, 228, 0.1);
     background: -moz-linear-gradient(top, rgba(119, 183, 228, 0.1) 17%, rgba(119, 183, 228, 0.1) 20%, rgba(255, 163, 92, 0.1) 31%, rgba(255, 163, 92, 0.1) 40%, rgba(255, 163, 92, 0.1) 51%, rgba(255, 163, 92, 0.1) 64%, rgba(238, 223, 105, 0.1) 79%, rgba(235, 235, 107, 0.1) 82%);
@@ -147,8 +163,6 @@ ul {
 }
 // Links
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-
-
 // Misc
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 hr {
@@ -157,7 +171,17 @@ hr {
     border-width: 0;
     border-top: 1px solid $HEX-LightGray;
 }
-.post.facebook img {}
 .cupcakes-n-sweets {
-    paddig-top: 40px;
+    //    paddig-top: 40px;
+    margin-left: 2%;
+    top: 230px;
+    position: relative;
+}
+.newsletter-input-fName {}
+.newsletter-input-lName {}
+.newsletter-input-eMail {}
+.newsletter-input-submitButton {}
+form#email-subscription-signup {
+    position: relative;
+    top: 0;
 }

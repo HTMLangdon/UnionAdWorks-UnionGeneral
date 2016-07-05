@@ -1,31 +1,7 @@
 /*------------------- */
 
 
-/*------------------- */
-
-
-/*------------------- */
-
-
-/*------------------- */
-
-
-/*------------------- */
-
-
 /* ------------------- <skeleton MQue files> */
-
-
-/*------------------- */
-
-
-/*------------------- */
-
-
-/*------------------- */
-
-
-/*------------------- */
 
 
 /*------------------- */
@@ -42,6 +18,39 @@ div.content {
         text-align: center;
     }
 }
+form#email-subscription-signup {
+    position: relative;
+    top: 0;
+}
+
+/* 
+.contact-contents .content .company-information .vcard {
+    float: left;
+    margin: 0 0 20px 0px;
+    h1.headline {
+        font-size: 17px;
+        text-align: left;
+    }
+}
+.contact-contents .content .company-hours {
+    float: right;
+    margin-right: 20px;
+    h1.headline {
+        font-size: 17px;
+        text-align: left;
+    }
+    .hours-of-operation {
+        li {
+            margin-bottom: 0;
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+ */
+
 // Larger than mobile
 @media (#{$bp-larger-than-mobile}) {
     .cakes-n-sweets {
@@ -55,11 +64,85 @@ div.content {
     div.content {
         padding: 0;
     }
+    ///
+    ////
+    /////
+    //////////// contact us section
+    /////
+    ////
+    ///
+    div.content {
+        padding: 5%;
+    }
 }
 // Larger than phablet (also point when grid becomes active)
-@media (#{$bp-larger-than-phablet}) {}
+@media (#{$bp-larger-than-phablet}) {
+    div.content {
+        padding: 0;
+    }
+    form#email-subscription-signup {
+        position: relative;
+        top: 105px;
+    }
+    /*  
+        .contact-contents .content .company-information .vcard {
+            float: none;
+            margin: 0 0 0 0;
+            h1.headline {
+                font-size: 17px;
+                text-align: center;
+            }
+        }
+         .contact-contents .content .company-hours {
+            float: right;
+            margin-right: 0;
+            h1.headline {
+                font-size: 17px;
+                text-align: center;
+            }
+            .hours-of-operation {
+                li {
+                    margin-bottom: 0;
+                    span {
+                        font-size: 15px;
+                    }
+                }
+            }
+        } */
+}
 // Larger than tablet
 @media (#{$bp-larger-than-tablet}) {}
+@media (#{$bp-larger-than-tabletPLUS50px}) {
+    
+//    .contact-contents .content .company-information .vcard {
+        float: none;
+//        margin: 0 0 20px 20px;
+//        h1.headline {
+//            font-size: 3rem;
+
+//        }
+//    }
+//    .contact-contents .content .company-hours {
+        float: none;
+//        margin-right: 20px;
+//        h1.headline {
+//            font-size: 17px;
+
+//        }
+//        .hours-of-operation {
+//            li {
+//                margin-bottom: 0;
+//                span {
+//                    font-size: 14px;
+//                }
+//            }
+//        }
+//    }
+    
+}
+
+
+
 // Larger than desktop
 @media (#{$bp-larger-than-desktop}) {}
 // Larger than Desktop HD

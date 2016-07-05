@@ -223,8 +223,9 @@ section,
   background-repeat: no-repeat; }
 
 .home-contents {
-  background-image: url("../slices/background-image-sHome.jpg");
   color: #8B7980; }
+  .home-contents .slide {
+    background-image: url("../slices/background-image-sHome.jpg"); }
   .home-contents .content-container {
     display: table;
     padding-top: 80px;
@@ -245,8 +246,10 @@ section,
 .cupcakery-contents {
   color: #8B7980;
   background-color: white; }
+  .cupcakery-contents h1.headline {
+    font-size: 30px; }
   .cupcakery-contents p.copy {
-    text-indent: 20px; }
+    text-indent: 0px; }
 
 li.cupcake img {
   width: 100%;
@@ -273,18 +276,37 @@ li.cupcake img {
   color: #ffffff;
   background-image: url(../slices/background-image-sBoutique-a.jpg); }
 
+.news-contents h1.headline {
+  color: #8B7980; }
+.news-contents p.copy {
+  color: #8B7980; }
+
 .contact-contents {
   color: #ffffff;
   background-color: #4D3C42; }
   .contact-contents .logo-container {
     margin: 0px 0px 30px 0px; }
+  .contact-contents h1.headline {
+    text-align: left; }
 
 .contact form input {
   color: #8B7980; }
 
-ul.new-posts .post {
+#footer {
+  background-color: #4D3C42;
+  text-align: center; }
+  #footer div.social-media ul.sm-icons {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0; }
+    #footer div.social-media ul.sm-icons li.icon {
+      display: inline-block; }
+      #footer div.social-media ul.sm-icons li.icon a {
+        text-decoration: none; }
+
+ul.new-posts.post {
   margin: 0 0 0 0;
-  padding: 0 0 0 0; }
+  padding: 0 0 0 0;
+  display: inline-block; }
 
 .gradient-3band {
   background: rgba(119, 183, 228, 0.1);
@@ -299,7 +321,13 @@ hr {
   border-top: 1px solid #d2d2d2; }
 
 .cupcakes-n-sweets {
-  paddig-top: 40px; }
+  margin-left: 2%;
+  top: 230px;
+  position: relative; }
+
+form#email-subscription-signup {
+  position: relative;
+  top: 0; }
 
 .u-full-width {
   width: 100%;
@@ -445,7 +473,13 @@ p {
 
   .cupcakery-gallery-contents .column,
   .cupcakery-gallery-contents .columns {
-    padding: 0px 0px; } }
+    padding: 0px 0px; }
+
+  .submit-button-cotainer {
+    text-align: right !important; }
+
+  .contact-contents div.content {
+    padding: 0 5%; } }
 @media (min-width: 550px) {
   .container {
     width: 80%; }
@@ -464,6 +498,9 @@ p {
 
   .half-uh.column {
     width: 9%; }
+
+  .just-past-afull.column {
+    width: 6.8333333333%; }
 
   .two.columns {
     width: 13.3333333333%; }
@@ -486,7 +523,7 @@ p {
   .six.columns {
     width: 48%; }
 
-  .seven.columns {
+  forinput.six.columns .seven.columns {
     width: 56.6666666667%; }
 
   .eight.columns {
@@ -504,6 +541,12 @@ p {
   .twelve.columns {
     width: 100%;
     margin-left: 0; }
+
+  .newsletter-input-eMail.ten.columns {
+    width: 87.666667%; }
+
+  .submit-button-cotainer {
+    text-align: left !important; }
 
   .one-third.column {
     width: 30.6666666667%; }
@@ -821,7 +864,7 @@ header {
   background-color: #8b7980;
   height: 65px;
   z-index: 100;
-  top: 0px; }
+  top: 10px; }
 
 .navigation-logo {
   position: absolute;
@@ -1024,15 +1067,7 @@ form {
 /*------------------- */
 /*------------------- */
 /*------------------- */
-/*------------------- */
-/*------------------- */
-/*------------------- */
-/*------------------- */
 /* ------------------- <skeleton MQue files> */
-/*------------------- */
-/*------------------- */
-/*------------------- */
-/*------------------- */
 /*------------------- */
 div.content {
   padding: 5%; }
@@ -1040,6 +1075,37 @@ div.content {
 .cupcakes-n-sweets h1.headline {
   text-align: center; }
 
+form#email-subscription-signup {
+  position: relative;
+  top: 0; }
+
+/* 
+.contact-contents .content .company-information .vcard {
+    float: left;
+    margin: 0 0 20px 0px;
+    h1.headline {
+        font-size: 17px;
+        text-align: left;
+    }
+}
+.contact-contents .content .company-hours {
+    float: right;
+    margin-right: 20px;
+    h1.headline {
+        font-size: 17px;
+        text-align: left;
+    }
+    .hours-of-operation {
+        li {
+            margin-bottom: 0;
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+ */
 @media (min-width: 405px) {
   .cakes-n-sweets {
     margin: 80px 0 0 0;
@@ -1049,7 +1115,46 @@ div.content {
 
   ul.prices,
   div.content {
-    padding: 0; } }
+    padding: 0; }
+
+  div.content {
+    padding: 5%; } }
+@media (min-width: 550px) {
+  div.content {
+    padding: 0; }
+
+  form#email-subscription-signup {
+    position: relative;
+    top: 105px; }
+
+  /*  
+      .contact-contents .content .company-information .vcard {
+          float: none;
+          margin: 0 0 0 0;
+          h1.headline {
+              font-size: 17px;
+              text-align: center;
+          }
+      }
+       .contact-contents .content .company-hours {
+          float: right;
+          margin-right: 0;
+          h1.headline {
+              font-size: 17px;
+              text-align: center;
+          }
+          .hours-of-operation {
+              li {
+                  margin-bottom: 0;
+                  span {
+                      font-size: 15px;
+                  }
+              }
+          }
+      } */ }
+@media (min-width: 800px) {
+  float: none;
+  float: none; }
 /*------------------- */
 /*------------------- */
 /*------------------- */
@@ -1112,9 +1217,5 @@ footer {
   line-height: 15em;
   text-align: center;
   background: none; }
-
-li.post.facebook {
-  padding: 0 0 0 0;
-  margin: 0 0 0 0; }
 
 /*# sourceMappingURL=styles.css.map */
