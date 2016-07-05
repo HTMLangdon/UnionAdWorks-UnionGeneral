@@ -278,10 +278,6 @@ li.cupcake img {
 .boutique-contents .slide {
   color: #ffffff;
   background-image: url(../slices/background-image-sBoutique-a.jpg); }
-  .boutique-contents .slide h1.headline.page-title {
-    color: #ffffff; }
-  .boutique-contents .slide h2.headline {
-    color: #ffffff; }
 
 .news-contents .slide .content h1.headline {
   color: #8B7980; }
@@ -449,19 +445,26 @@ body {
     color: #8B7980;
     text-align: center;
     font-size: 3.5rem; }
-  body section.contact-contents .content .form-container h1.headline.join-mailing-list {
+  body section.contact-contents .slide .content .form-container h1.headline.join-mailing-list {
     text-align: left;
     font-family: "DancingScript", sans-serif !important;
-    font-size: 20px;
+    font-size: 36px !important;
     color: #ffffff; }
-  body section.contact-contents .content .company-hours h1.headline {
+  body section.contact-contents .slide .content .company-hours h1.headline {
     text-align: left;
     color: #ffffff;
     font-family: "DancingScript", sans-serif !important; }
-  body section.contact-contents .content .company-information .vcard h1.headline {
+  body section.contact-contents .slide .content .company-information .vcard h1.headline {
     font-family: "DancingScript", sans-serif !important;
     color: #ffffff;
     text-align: left; }
+  body section.boutique-contents .slide .content h1.headline.page-title {
+    color: #ffffff; }
+  body section.boutique-contents .slide .content h2.headline {
+    color: #ffffff; }
+
+body section.contact-contents .slide .content h1.headline {
+  font-size: 36px; }
 
 /*  THIS IS FOR  THE JOIN THE MAILING LIST HEADLINE ON CONTACT PAGE - BREAKS FOR A MOMENT BEFORE BECMOING SMALLER */
 @media (min-width: 550px) {
