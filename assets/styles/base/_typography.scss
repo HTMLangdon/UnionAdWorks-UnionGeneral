@@ -56,49 +56,68 @@ body {
                     font-family: $font-family-headline-main !important;
                     color: $HEX-Salmon-Flat;
                     text-align: center;
-                    font-size:12px;
+                    font-size: 12px;
                     margin: 0 0 0 0;
                 }
                 h2.headline {
                     font-family: $font-family-headline-second !important;
                     color: $HEX-Salmon-Flat;
                     text-align: center;
-                    font-size:3.5rem;
+                    font-size: 3.5rem;
                 }
             }
         }
+       
         &.contact-contents {
-            .content {
-                .form-container {
-                    h1.headline.join-mailing-list {
-                        text-align: left;
-                        font-family: $font-family-headline-second !important;
-                        font-size: 20px;
-                        color: $HEX-Pure-White;
-                    }
-                }
-            }
-        }
-        &.contact-contents {
-            .content {
-                .company-hours {
-                    h1.headline {
-                        text-align: left;
-                        color: $HEX-Pure-White;
-                        font-family: $font-family-headline-second !important;
-                    }
-                }
-            }
-        }
-        &.contact-contents {
-            .content {
-                .company-information {
-                    .vcard {
-                        h1.headline {
-                            font-family: $font-family-headline-second !important;
-                            color: $HEX-Pure-White;
+            .slide {
+                .content {
+                    .form-container {
+                        h1.headline.join-mailing-list {
                             text-align: left;
+                            font-family: $font-family-headline-second !important;
+                            font-size: 36px !important;
+                            color: $HEX-Pure-White;
                         }
+                    }
+                }
+            }
+        }
+        &.contact-contents {
+            .slide {
+                .content {
+                    .company-hours {
+                        h1.headline {
+                            text-align: left;
+                            color: $HEX-Pure-White;
+                            font-family: $font-family-headline-second !important;
+                        }
+                    }
+                }
+            }
+        }
+        &.contact-contents {
+            .slide {
+                .content {
+                    .company-information {
+                        .vcard {
+                            h1.headline {
+                                font-family: $font-family-headline-second !important;
+                                color: $HEX-Pure-White;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.boutique-contents {
+            .slide {
+                .content {
+                    h1.headline.page-title {
+                        color: $HEX-Pure-White;
+                    }
+                    h2.headline {
+                        color: $HEX-Pure-White;
                     }
                 }
             }
@@ -107,13 +126,10 @@ body {
 }
 
 
-
-
-
-
-
+ body section.contact-contents .slide .content h1.headline{font-size: 36px;}
 
 /*  THIS IS FOR  THE JOIN THE MAILING LIST HEADLINE ON CONTACT PAGE - BREAKS FOR A MOMENT BEFORE BECMOING SMALLER */
+
 //
 //
 //@media (#{$bp-larger-than-desktophdPLUS35}) {
@@ -138,14 +154,6 @@ body {
 //    //////
 //}
 //
-
-
-
-
-
-
-
-
 // Larger than phablet
 @media (#{$bp-larger-than-phablet}) {
     h1 {
