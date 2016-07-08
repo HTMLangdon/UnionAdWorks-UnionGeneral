@@ -107,6 +107,48 @@ li {
         color: $HEX-Salmon-Flat;
         padding: 0px 10px;
     }
+    ul.cupcake-items {
+        max-width: 1025px;
+        margin: 0 auto;
+        &:after {
+            clear: both;
+            content: '';
+            display: table;
+        }
+        li.cupcake-item {
+            @include rowMachine(2,5px);
+            width: 100%;
+            height: 100%;
+            max-width: 178px;
+            max-height: 178px;
+            list-style: none;
+            text-align: center;
+            float: left;
+            a {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    max-width: 178px;
+                    max-height: 178px;
+                }
+            }
+           @media only screen and (min-width:415px) {
+                @include rowMachine(2,10px);
+            }
+            @media only screen and (min-width:615px) {
+                @include rowMachine(3,10px);
+            }
+           @media only screen and (min-width:820px) {
+                @include rowMachine(4,10px);
+            }
+           @media only screen and (min-width:1025px) {
+                @include rowMachine(5,10px);
+            }
+//           @media only screen and (max-width:410px) {
+//                @include rowMachine(5,10px);
+//            }
+        }
+    }
 }
 .boutique-contents .slide {
     color: $HEX-Pure-White;

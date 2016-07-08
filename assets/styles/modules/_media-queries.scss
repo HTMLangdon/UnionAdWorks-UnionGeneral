@@ -1,10 +1,4 @@
-/*------------------- */
-
-
-/* ------------------- <skeleton MQue files> */
-
-
-/*------------------- */
+    /* ------------------- <skeleton MQue files> */
 
 // Note: The best way to structure the use of media queries is to create the queries
 // near the relevant code. For example, if you wanted to change the styles for buttons
@@ -17,36 +11,18 @@ form#email-subscription-signup {
     position: relative;
     top: 0;
 }
-
-/* 
-.contact-contents .content .company-information .vcard {
-    float: left;
-    margin: 0 0 20px 0px;
-    h1.headline {
-        font-size: 17px;
-        text-align: left;
-    }
-}
-.contact-contents .content .company-hours {
-    float: right;
-    margin-right: 20px;
-    h1.headline {
-        font-size: 17px;
-        text-align: left;
-    }
-    .hours-of-operation {
-        li {
-            margin-bottom: 0;
-            span {
-                font-size: 14px;
-            }
-        }
-    }
-}
-
- */
-
-// Larger than mobile
+//
+///
+////
+/////
+//////
+//////
+//---->    STYLES FOR ELEMENTS @ BROWSER $bp-larger-than-desktop
+//////
+/////
+////
+///
+//
 @media (#{$bp-larger-than-mobile}) {
     .cakes-n-sweets {
         margin: 80px 0 0 0;
@@ -59,6 +35,7 @@ form#email-subscription-signup {
     div.content {
         padding: 0;
     }
+    
     ///
     ////
     /////
@@ -70,7 +47,18 @@ form#email-subscription-signup {
         padding: 5%;
     }
 }
-// Larger than phablet (also point when grid becomes active)
+//
+///
+////
+/////
+//////
+//////
+//---->    STYLES FOR ELEMENTS @ BROWSER $bp-larger-than-phablet (also when grid becomes active)
+//////
+/////
+////
+///
+//
 @media (#{$bp-larger-than-phablet}) {
     div.content {
         padding: 0;
@@ -79,59 +67,50 @@ form#email-subscription-signup {
         position: relative;
         //        top: 105px;
     }
-    /*  
-        .contact-contents .content .company-information .vcard {
-            float: none;
-            margin: 0 0 0 0;
-            h1.headline {
-                font-size: 17px;
-                text-align: center;
-            }
-        }
-         .contact-contents .content .company-hours {
-            float: right;
-            margin-right: 0;
-            h1.headline {
-                font-size: 17px;
-                text-align: center;
-            }
-            .hours-of-operation {
-                li {
-                    margin-bottom: 0;
-                    span {
-                        font-size: 15px;
-                    }
-                }
-            }
-        } */
 }
-// Larger than tablet
-@media (#{$bp-larger-than-tablet}) {}
-@media (#{$bp-larger-than-tabletPLUS50px}) {
-    //    .contact-contents .content .company-information .vcard {
-    //    float: none;
-    //        margin: 0 0 20px 20px;
-    //        h1.headline {
-    //            font-size: 3rem;
-    //        }
-    //    }
-    //    .contact-contents .content .company-hours {
-    //    float: none;
-    //        margin-right: 20px;
-    //        h1.headline {
-    //            font-size: 17px;
-    //        }
-    //        .hours-of-operation {
-    //            li {
-    //                margin-bottom: 0;
-    //                span {
-    //                    font-size: 14px;
-    //                }
-    //            }
-    //        }
-    //    }
+//
+///
+////
+/////
+//////
+//////
+//---->    STYLES FOR ELEMENTS @ BROWSER $bp-larger-than-tablet
+//////
+/////
+////
+///
+//
+@media (#{$bp-larger-than-tablet}) {
+    
 }
-// Larger than desktop
+//
+///
+////
+/////
+//////
+//////
+//---->    STYLES FOR ELEMENTS @ BROWSER $bp-larger-than-tabletPLUS50px / 80px
+//////
+/////
+////
+///
+//
+@media (#{$bp-larger-than-tabletPLUS50px}) {}
+@media (#{$bp-larger-than-tabletPLUS80px}) {
+    
+}
+//
+///
+////
+/////
+//////
+//////
+//---->    STYLES FOR ELEMENTS @ BROWSER $bp-larger-than-desktop
+//////
+/////
+////
+///
+//
 @media (#{$bp-larger-than-desktop}) {
     .cupcake-image {
         position: relative;
@@ -144,7 +123,18 @@ form#email-subscription-signup {
         margin: 0 0 0 2%;
     }
 }
-//anything larger than 1025px
+//
+///
+////
+/////
+//////
+//////
+//---->    STYLES FOR ELEMENTS @ BROWSER LARGER bp-larger-than-desktopPLUS25px (1025px)
+//////
+/////
+////
+///
+//
 @media (#{$bp-larger-than-desktopPLUS25px}) {
     body {
         font-size: 1.5em; // currently ems cause chrome bug misinterpreting rems on body element
@@ -170,6 +160,7 @@ form#email-subscription-signup {
             }
         }
     }
+    
 }
 // Larger than Desktop HD
 @media (#{$bp-larger-than-desktophd}) {
@@ -185,34 +176,4 @@ form#email-subscription-signup {
     }
 }
 
-/*------------------- */
-
-
-/*------------------- */
-
-
-/*------------------- */
-
-
-/*------------------- */
-
-
-/*------------------- */
-
-
-/* ------------------- </skeleton MQue files> */
-
-
-/*------------------- */
-
-
-/*------------------- */
-
-
-/*------------------- */
-
-
-/*------------------- */
-
-
-/*------------------- */
+/*  -----------</ skeleton scss media-queries end > ----------- */

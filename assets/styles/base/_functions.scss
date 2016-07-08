@@ -14,11 +14,33 @@
 @function grid-offset-length($n) {
     @return grid-column-width($n) + $column-margin;
 }
-
 @mixin cover-background($img-uri, $background-top:"center", $background-left:"center", $background-attachment:"fixed") {
     background: url($img-uri) no-repeat unquote($background-top) unquote($background-left) unquote($background-attachment);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+//mixin SPECIFIC for cupcake gallery! (make global funciton later)
+@mixin rowMachine($numPerRow, $margin) {
+    //  width: ((100% - (($numPerRow - 1) * $margin)) / $numPerRow);
+    &:nth-child(n) {
+        margin-bottom: $margin;
+        margin-right: $margin;
+    }
+    &:nth-child(n):after {
+    cler:none;
+        content: '';
+        display: none;
+    }
+    &:nth-child(#{$numPerRow}n) {
+        margin-right: 0;
+    }
+    &:nth-child(#{$numPerRow}n) {
+        &:after {
+            clear: both;
+            content: '';
+            display: table;
+        }
+    }
 }
