@@ -460,6 +460,15 @@
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
+	"\/Build\/--index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/--index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Build\/-old-nDex.html": {
 		"fileType": 8192,
 		"ignore": 0,

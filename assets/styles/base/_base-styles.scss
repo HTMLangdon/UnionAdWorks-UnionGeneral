@@ -108,7 +108,18 @@ li {
         padding: 0px 10px;
     }
     ul.cupcake-items {
-        max-width: 1025px;
+        @media only screen and (min-width: 415px) {
+            max-width: 356px;
+        }
+        @media only screen and (min-width:615px) {
+            max-width: 534px;
+        }
+        @media only screen and (min-width:820px) {
+            max-width: 712px;
+        }
+        @media only screen and (min-width:1025px) {
+            max-width: 890px;
+        }
         margin: 0 auto;
         &:after {
             clear: both;
@@ -116,9 +127,12 @@ li {
             display: table;
         }
         li.cupcake-item {
-            @include rowMachine(2,5px);
-            width: 100%;
-            height: 100%;
+            @include rowMachine(2,
+            5px);
+            box-sizing: border-box;
+            width: 50%;
+            height: 50%;
+            padding: 10px;
             max-width: 178px;
             max-height: 178px;
             list-style: none;
@@ -132,21 +146,27 @@ li {
                     max-height: 178px;
                 }
             }
-           @media only screen and (min-width:415px) {
-                @include rowMachine(2,10px);
+            @media only screen and (min-width:415px) {
+                width: 100%;
+                height: 100%;
+                @include rowMachine(2,
+                10px);
             }
             @media only screen and (min-width:615px) {
-                @include rowMachine(3,10px);
+                @include rowMachine(3,
+                10px);
             }
-           @media only screen and (min-width:820px) {
-                @include rowMachine(4,10px);
+            @media only screen and (min-width:820px) {
+                @include rowMachine(4,
+                10px);
             }
-           @media only screen and (min-width:1025px) {
-                @include rowMachine(5,10px);
+            @media only screen and (min-width:1025px) {
+                @include rowMachine(5,
+                10px);
             }
-//           @media only screen and (max-width:410px) {
-//                @include rowMachine(5,10px);
-//            }
+            //           @media only screen and (max-width:410px) {
+            //                @include rowMachine(5,10px);
+            //            }
         }
     }
 }
@@ -163,6 +183,53 @@ li {
             }
             p.copy {
                 color: $HEX-Salmon-Flat;
+            }
+            ul.social-media-posts {
+                max-width: 354px;
+                @media only screen and (min-width: 710px) {
+                    max-width: 708px;
+                }
+                @media only screen and (min-width:1440px) {
+                    max-width: 1416px;
+                }
+                margin: 0 auto;
+                &:after {
+                    clear: both;
+                    content: '';
+                    display: table;
+                }
+                li.post.facebook {
+                    @include rowMachine(1, 5px);
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: 100%;
+                    padding: 0 0 0 0 !important;
+                    margin: 0 0 0 0 !important;
+                    max-width: 354px;
+                    max-height: 355px;
+                    list-style: none;
+                    text-align: center;
+                    float: left;
+                    a {
+                        padding: 0 0 0 0 !important;
+                        margin: 0 0 0 0 !important;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            padding: 0 0 0 0 !important;
+                            margin: 0 0 0 0 !important;
+                            max-width: 354px;
+                            max-height: 355px;
+                        }
+                    }
+                    @media only screen and (min-width:710px) {
+                        @include rowMachine(2, 5px);
+                    }
+                    
+                    @media only screen and (min-width:1420px) {
+                        @include rowMachine(4, 5px);
+                    }
+                }
             }
         }
     }

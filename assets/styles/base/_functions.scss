@@ -25,8 +25,8 @@
 @mixin rowMachine($numPerRow, $margin) {
     //  width: ((100% - (($numPerRow - 1) * $margin)) / $numPerRow);
     &:nth-child(n) {
-        margin-bottom: $margin;
-        margin-right: $margin;
+//        margin-bottom: $margin;
+//        margin-right: $margin;
     }
     &:nth-child(n):after {
     cler:none;
@@ -34,7 +34,7 @@
         display: none;
     }
     &:nth-child(#{$numPerRow}n) {
-        margin-right: 0;
+//        margin-right: 0;
     }
     &:nth-child(#{$numPerRow}n) {
         &:after {
