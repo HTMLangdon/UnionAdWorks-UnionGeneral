@@ -37,6 +37,14 @@ section,
     color: $HEX-Salmon-Flat;
     .slide {
         background-image: url('../slices/background-image-sHome.jpg');
+        .content {
+            .logo-container {
+                padding: 10%;
+                background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.5) 0%, transparent 50%);
+                background: -webkit-radial-gradient(center ellipse, rgba(0, 0, 0, 0.5) 0%, transparent 50%);
+                background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, transparent 70%);
+            }
+        }
     }
     .content-container {
         display: table;
@@ -50,7 +58,6 @@ section,
 }
 .about-a-contents {
     position: relative;
-    //    max-height: 600px;
     color: $HEX-Salmon-Dark;
 }
 .about-b-contents {
@@ -91,7 +98,7 @@ li {
 }
 .midground-element {
     .bird-image {
-        z-index: -1;
+        z-index: 0;
         position: absolute;
         top: 50%;
         bottom: 50%;
@@ -100,6 +107,13 @@ li {
         max-height: 415px;
         height: 100%;
         width: 100%;
+    }
+}
+.about-a-contents {
+    .midground-element {
+        .bird-image {
+            z-index: -1;
+        }
     }
 }
 .sCupcakeryGallery .slide .content {
@@ -176,6 +190,7 @@ li {
     background-image: url(../slices/background-image-sBoutique-a.jpg);
 }
 .news-contents {
+    padding: 5% 0 0 0;
     .slide {
         .content {
             h1.headline {
@@ -183,6 +198,7 @@ li {
             }
             p.copy {
                 color: $HEX-Salmon-Flat;
+                text-align: center;
             }
             ul.social-media-posts {
                 max-width: 354px;
@@ -199,7 +215,8 @@ li {
                     display: table;
                 }
                 li.post.facebook {
-                    @include rowMachine(1, 5px);
+                    @include rowMachine(1,
+                    5px);
                     box-sizing: border-box;
                     width: 100%;
                     height: 100%;
@@ -222,13 +239,19 @@ li {
                             max-height: 355px;
                         }
                     }
-                    @media only screen and (min-width:710px) {
-                        @include rowMachine(2, 5px);
+                    //                    @media only screen and (min-width:710px) {
+                    //                        @include rowMachine(2,
+                    //                        5px);
+                    //                    }
+                    //                    
+                    @media only screen and (min-width:1062px) {
+                        @include rowMachine(3,
+                        5px);
                     }
-                    
-                    @media only screen and (min-width:1420px) {
-                        @include rowMachine(4, 5px);
-                    }
+                    //                    @media only screen and (min-width:1420px) {
+                    //                        @include rowMachine(4,
+                    //                        5px);
+                    //                    }
                 }
             }
         }
@@ -236,6 +259,7 @@ li {
 }
 .contact-contents {
     .slide {
+        padding: 5% 0 0 0;
         color: $HEX-Pure-White;
         background-color: $HEX-Salmon-Flat;
         .logo-container {
@@ -246,15 +270,38 @@ li {
             z-index: 1;
         }
     }
+    .success {
+        padding: 1em;
+        margin-bottom: 0.75rem;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+        color: #468847;
+        background-color: #dff0d8;
+        border: 1px solid #d6e9c6;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+    .error {
+        padding: 1em;
+        margin-bottom: 0.75rem;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+        color: #b94a48;
+        background-color: #f2dede;
+        border: 1px solid rgba(185, 74, 72, 0.3);
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
 }
-.contact form input {
-    color: $HEX-Salmon-Flat;
+.contact-contents form input {
+    color: $HEX-Salmon-Flat !important;
 }
 #footer {
     background-color: $HEX-Salmon-Dark;
     text-align: center;
     div.social-media {
         ul.sm-icons {
+            margin: 0 0 0 0;
             li.icon {
                 padding: 2% 2% 2% 2%;
                 margin: 0 0 0 0;
@@ -319,4 +366,8 @@ hr {
 form#email-subscription-signup {
     position: relative;
     top: 0;
+    input.newsletter-input-fName, //    input.newsletter-input-lName,
+    input.newsletter-input-eMail {
+        margin-left: 0;
+    }
 }

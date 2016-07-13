@@ -176,7 +176,7 @@
             </div>
 
         </section>
-       
+
         <section data-anchor="sCupcakeryGallery" class="sCupcakeryGallery cupcakery-gallery-contents section fp-auto-height">
             <div class="slide">
                 <div class="content">
@@ -207,7 +207,7 @@
                                 <img src="assets/slices/cupcallery/thumbnails/thb-Mocha.jpg" />
                             </a>
                         </li>
-<!---->
+                        <!---->
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/PB&J.jpg">
                                 <img src="assets/slices/cupcallery/thumbnails/thb-PB&J.jpg" />
@@ -234,7 +234,7 @@
                             </a>
                         </li>
 
-<!-- -->
+                        <!-- -->
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Carm.jpg">
                                 <img src="assets/slices/cupcallery/thumbnails/thb-Carm.jpg" />
@@ -260,7 +260,7 @@
                                 <img src="assets/slices/cupcallery/thumbnails/thb-Molten_Lava.jpg" />
                             </a>
                         </li>
-<!---->
+                        <!---->
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Patti.jpg">
                                 <img src="assets/slices/cupcallery/thumbnails/thb-Patti.jpg" />
@@ -314,7 +314,7 @@
                             </a>
                         </li>
 
-<!---->
+                        <!---->
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Peanutty.jpg">
                                 <img src="assets/slices/cupcallery/thumbnails/thb-Peanutty.jpg" />
@@ -340,7 +340,7 @@
                                 <img src="assets/slices/cupcallery/thumbnails/thb-Bird_Nest-1.jpg" />
                             </a>
                         </li>
-<!---->
+                        <!---->
                         <li class="cupcake-item">
                             <a href="assets/slices/jry/Cheeky_Monkey.jpg">
                                 <img src="assets/slices/cupcallery/thumbnails/thb-Cheeky_Monkey.jpg" />
@@ -366,7 +366,7 @@
                                 <img src="assets/slices/cupcallery/thumbnails/thb-Old_School.jpg" />
                             </a>
                         </li>
-<!---->
+                        <!---->
 
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Praline.jpg">
@@ -388,7 +388,7 @@
                                 <img src="assets/slices/cupcallery/thumbnails/thb-BB.jpg" />
                             </a>
                         </li>
-<!---->
+                        <!---->
 
                     </ul>
                 </div>
@@ -458,7 +458,7 @@
                                 <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-a.png" alt="facebook post preview image" class="post-preview">
                             </a>
                         </li>
-                        
+
                         <li class="post facebook">
                             <a href="#" class="fb-post-CTA">
                                 <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-b.png" alt="facebook post preview image" class="post-preview">
@@ -532,28 +532,92 @@
                         </div>
                     </div>
 
+
+
+
+                    <style>
+                        label {
+                            display: block;
+                            margin-top: 20px;
+                            letter-spacing: 2px;
+                        }
+                        /* Centre the page */
+                        
+                        .body {
+                            display: block;
+                            margin: 0 auto;
+                            width: 576px;
+                        }
+                        /* Centre the form within the page */
+                        
+                        form {
+                            margin: 0 auto;
+                        }
+
+                        
+                        input,
+                        textarea {
+                            width: 439px;
+                            height: 27px;
+                            background: #efefef;
+                            border: 1px solid #dedede;
+                            padding: 10px;
+                            margin-top: 3px;
+                            font-size: 0.9em;
+                            color: #3a3a3a;
+                        }
+                        
+/*
+                        input,
+                        textarea {
+                            width: 439px;
+                            height: 27px;
+                            background: #efefef;
+                            border: 1px solid #dedede;
+                            padding: 10px;
+                            margin-top: 3px;
+                            font-size: 0.9em;
+                            color: #3a3a3a;
+                            -moz-border-radius: 5px;
+                            -webkit-border-radius: 5px;
+                            border-radius: 5px;
+                        }
+                        
+*/
+                        input:focus,
+                        textarea:focus {
+                            border: 1px solid #97d6eb;
+                        }
+                    </style>
+                    
                     <div class="form-container four columns">
                         <h1 class="headline join-mailing-list">Join Our Mailing List</h1>
-                        <form id="email-subscription-signup">
+                        <form id="email-subscription-signup" method="post" action="mail-form.php">
                             <div class="row">
-                                <input class="newsletter-input-fName four columns" type="text" name="name-first" placeholder="first" />
-                                <input class="newsletter-input-lName six columns offset-by-one" type="text" name="name-last" placeholder="last" />
+                                <label style="display:none;">First</label>
+                                <input class="newsletter-input-fName four columns" type="text" name="name-first" placeholder="First" />
+                                <label style="display:none;">Last</label>
+                                <input class="newsletter-input-lName six columns offset-by-one" type="text" name="name-last" placeholder="Last" />
                             </div>
                             <div class="row">
-                                <input class="newsletter-input-eMail ten columns" type="text" name="email-address" placeholder="E-Mofdpof" />
+                                <label style="display:none;">Email</label>
+                                <input class="newsletter-input-eMail ten columns" type="text" name="email-address" placeholder="ex: 2485633987" />
                             </div>
+                            <label>*What is 2+2? (Anti-spam)</label>
+                            <input name="human" placeholder="Type Here">
+
+                           
                             <div class="submit-button-cotainer row">
-                                <input class="newsletter-input-submitButton button-primary" type="submit" value="Submit" />
+                                <input id="submit-mailing-list-signup" class="newsletter-input-submitButton button-primary" type="submit" value="Submit" />
                             </div>
                         </form>
-                    </div>
-
+                    </div><!-- form-container -->
                 </div>
                 <!-- contact -->
-
             </div>
             <!-- slide -->
         </section>
+
     </main>
     <div id="footer">
         <div class="social-media">
