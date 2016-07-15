@@ -8,7 +8,7 @@
 <!--<![endif]-->
 
 <head>
-        <?php
+    <?php
 
 
         if ($_POST['submit']) {
@@ -149,7 +149,16 @@
                     <div class="eight columns offset-by-two">
                         <h1 class="headline page-title">ABOUT US</h1>
                         <h2 class="headline">Union General is a Modern ‘General Store’</h2>
-                        <p class="copy">The Union General offers a largesse arrangement of home goods, kids items, bath+body and baked goods in a cozy, homey, bite-size setting. Housed since 1997 in an 1850 parsonage in historic downtown Clarkston, the Clarkston Union and the Union Woodshop's sister store is filled with old school charm and curiosities edited with a whimsical yet focused eye. Pop in for a cheeky card and leave with a freshly baked cupcake, bubble bath, cookbook or toy harmonica!
+                    <p class="copy">
+                        The Union General offers a largesse arrangement of home goods, kids items, bath+body and baked goods in a cozy, homey, bite-size setting.
+                    </p>
+
+
+                    <p class="copy">
+                        Housed since 1997 in an 1850 parsonage in historic downtown Clarkston, the Clarkston Union and the Union Woodshop's sister store is filled with old school charm and curiosities edited with a whimsical yet focused eye. Pop in for a cheeky card and leave with a freshly baked cupcake, bubble bath, cookbook or toy harmonica! 
+                    </p>
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -413,7 +422,10 @@
                         <!---->
 
                     </ul>
+
                 </div>
+
+
                 <div class="content row">
                     <div class="eight columns offset-by-two">
                         <p class="copy">
@@ -454,51 +466,57 @@
                     <ul class="social-media-posts">
                         <li class="post facebook">
                             <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-a.png" alt="facebook post preview image" class="post-preview">
-                            </a>
-                        </li>
-                        <li class="post facebook">
-                            <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-b.png" alt="facebook post preview image" class="post-preview">
-                            </a>
-                        </li>
-                        <li class="post facebook">
-
-                            <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-c.png" alt="facebook post preview image" class="post-preview">
-                            </a>
-                        </li>
-                        <li class="post facebook">
-
-                            <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-d.png" alt="facebook post preview image" class="post-preview">
+                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/logo-header.png" alt="facebook post preview image" class="post-preview">
                             </a>
                         </li>
 
                         <li class="post facebook">
                             <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-a.png" alt="facebook post preview image" class="post-preview">
+                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/logo-header.png" alt="facebook post preview image" class="post-preview">
+                            </a>
+                        </li>
+
+                        <li class="post facebook">
+
+                            <a href="#" class="fb-post-CTA">
+                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/logo-header.png" alt="facebook post preview image" class="post-preview">
+                            </a>
+                        </li>
+
+                        <li class="post facebook">
+
+                            <a href="#" class="fb-post-CTA">
+                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/logo-header.png" alt="facebook post preview image" class="post-preview">
                             </a>
                         </li>
 
                         <li class="post facebook">
                             <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-b.png" alt="facebook post preview image" class="post-preview">
+                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/logo-header.png" alt="facebook post preview image" class="post-preview">
                             </a>
                         </li>
+
+                        <li class="post facebook">
+                            <a href="#" class="fb-post-CTA">
+                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/logo-header.png" alt="facebook post preview image" class="post-preview">
+                            </a>
+                        </li>
+
                         <li class="post facebook">
 
                             <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-c.png" alt="facebook post preview image" class="post-preview">
+                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/logo-header.png" alt="facebook post preview image" class="post-preview">
                             </a>
                         </li>
-                        <li class="post facebook">
 
+                        <li class="post facebook">
                             <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-d.png" alt="facebook post preview image" class="post-preview">
+                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/logo-header.png" alt="facebook post preview image" class="post-preview">
                             </a>
                         </li>
+
                     </ul>
+
                 </div>
             </div>
         </section>
@@ -553,16 +571,16 @@
 
                     <div class="form-container four columns">
                         <h1 class="headline join-mailing-list">Join Our Mailing List</h1>
-                      
-                        
-                        <div id="form-messages"></div>
-                        
+                        <div id="form-messages">
+                            <span class="errors"></span>
+                        </div>
+
                         <form id="email-subscription-signup" method="post" action="mail.php">
                             <div class="row">
                                 <label style="display:none;">First</label>
                                 <input class="newsletter-input-fName four columns" type="text" name="name-first" placeholder="First" required>
                                 <label style="display:none;">Last</label>
-                                <input class="newsletter-input-lName six columns offset-by-one" type="text" name="name-last" placeholder="Last" >
+                                <input class="newsletter-input-lName six columns offset-by-one" type="text" name="name-last" placeholder="Last">
                             </div>
                             <div class="row">
                                 <label style="display:none;">Email</label>
@@ -578,11 +596,10 @@
                 <!-- contact -->
             </div>
             <!-- contact -->
-
             <!-- slide -->
         </section>
-
     </main>
+
     <div id="footer">
         <div class="social-media">
             <ul class="sm-icons">
