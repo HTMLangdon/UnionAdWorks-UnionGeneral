@@ -8,7 +8,7 @@
 <!--<![endif]-->
 
 <head>
-        <?php
+    <?php
 
 
         if ($_POST['submit']) {
@@ -100,29 +100,37 @@
         </div>
 
         <nav class="navigation-main">
-            <div class="nav-mobile-button"><a id="btn-hamurberX" href="#!"><span></span></a></div>
+            <div class="nav-mobile-button"><a id="btn-hamburgerX" href="#!"><span></span></a></div>
             <ul>
-                <li data-menuanchor="sHome" class="main-nav-item">
+               
+
+                <li id="anchor-main-nav-section--home" data-menuanchor="sHome" class="main-nav-item">
                     <a href="#sHome" class="nav-title">Home</a>
+                    
                 </li>
-                <li data-menuanchor="sAbout_a" class="main-nav-item">
+                <li id="anchor-main-nav-section--about_a" data-menuanchor="sAbout_a" class="main-nav-item">
                     <a href="#sAbout_a" class="nav-title">About Us</a>
+                    
                 </li>
-                <li data-menuanchor="sCupcakery" class="main-nav-item">
+                <li id="anchor-main-nav-section--cupcakery" data-menuanchor="sCupcakery" class="main-nav-item">
                     <a href="#sCupcakery" class="nav-title">Cupcakery</a>
+                    
                 </li>
-                <li data-menuanchor="sBoutique" class="main-nav-item">
+                <li id="anchor-main-nav-section--boutique" data-menuanchor="sBoutique" class="main-nav-item">
                     <a href="#sBoutique" class="nav-title">Boutique</a>
+                    
                 </li>
-                <li data-menuanchor="sNews" class="main-nav-item">
+                <li id="anchor-main-nav-section--news" data-menuanchor="sNews" class="main-nav-item">
                     <a href="#sNews" class="nav-title">News</a>
+                    
                 </li>
-                <li data-menuanchor="sContact" class="main-nav-item">
+                <li id="anchor-main-nav-section--contact" data-menuanchor="sContact" class="main-nav-item">
                     <a href="#sContact" class="nav-title">Contact Us</a>
+                    
                 </li>
             </ul>
         </nav>
-    </header>
+    </header>                                     
 
     <main class="fullBrowserSections">
 
@@ -149,7 +157,16 @@
                     <div class="eight columns offset-by-two">
                         <h1 class="headline page-title">ABOUT US</h1>
                         <h2 class="headline">Union General is a Modern ‘General Store’</h2>
-                        <p class="copy">The Union General offers a largesse arrangement of home goods, kids items, bath+body and baked goods in a cozy, homey, bite-size setting. Housed since 1997 in an 1850 parsonage in historic downtown Clarkston, the Clarkston Union and the Union Woodshop's sister store is filled with old school charm and curiosities edited with a whimsical yet focused eye. Pop in for a cheeky card and leave with a freshly baked cupcake, bubble bath, cookbook or toy harmonica!
+                        <p class="copy">
+                            The Union General offers a largesse arrangement of home goods, kids items, bath+body and baked goods in a cozy, homey, bite-size setting.
+                        </p>
+
+
+                        <p class="copy">
+                            Housed since 1997 in an 1850 parsonage in historic downtown Clarkston, the Clarkston Union and the Union Woodshop's sister store is filled with old school charm and curiosities edited with a whimsical yet focused eye. Pop in for a cheeky card and leave with a freshly baked cupcake, bubble bath, cookbook or toy harmonica!
+                        </p>
+
+
                     </div>
                 </div>
             </div>
@@ -413,7 +430,10 @@
                         <!---->
 
                     </ul>
+
                 </div>
+
+
                 <div class="content row">
                     <div class="eight columns offset-by-two">
                         <p class="copy">
@@ -431,8 +451,13 @@
             <div class="slide">
                 <div class="content row">
                     <div class="eight columns offset-by-two">
-                        <h2 class="headline">Boutique</h2>
+                        <h1 class="headline">BOUTIQUE</h1>
+                        <h2 class="headline">Union General is a Modern 'General Store'</h2>
+
+                        <p class="copy">The Union General offers a largesse arrangement of home goods, kids items, bath+body and baked goods in a cozy, homey, bite-size setting.</p>
+
                         <p class="copy">Housed since 1997 in an 1850 parsonage in historic downtown Clarkston, the Clarkston Union and the Union Woodshop's sister store is filled with old school charm and curiosities edited with a whimsical yet focused eye. Pop in for a cheeky card and leave with a freshly baked cupcake, bubble bath, cookbook or toy harmonica!</p>
+
                     </div>
                 </div>
             </div>
@@ -452,53 +477,138 @@
 
                 <div class="content row">
                     <ul class="social-media-posts">
-                        <li class="post facebook">
-                            <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-a.png" alt="facebook post preview image" class="post-preview">
-                            </a>
-                        </li>
-                        <li class="post facebook">
-                            <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-b.png" alt="facebook post preview image" class="post-preview">
-                            </a>
-                        </li>
-                        <li class="post facebook">
-
-                            <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-c.png" alt="facebook post preview image" class="post-preview">
-                            </a>
-                        </li>
-                        <li class="post facebook">
-
-                            <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-d.png" alt="facebook post preview image" class="post-preview">
-                            </a>
-                        </li>
 
                         <li class="post facebook">
-                            <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-a.png" alt="facebook post preview image" class="post-preview">
-                            </a>
+                            <div class="hover-content-container">
+                                <div class="hover-content">
+                                    <div class="logo facebook icon">
+                                        <img class="rollover-icon" src=" assets/slices/icon-social-media_FaceBook.png" alt="Icon of FaceBook Logo" />
+                                    </div>
+                                    <div class="post-url-title">
+                                        <span class="facebook-url-suffix">/ UnionGeneral</span>
+                                    </div>
+                                    <div class="visit-original-post">
+                                        <img src="assets/slices/icons/icon-external-url-chain-b.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-a.jpg" alt="facebook post preview image" class="post-preview">
+                        </li>
+                        <li class="post facebook">
+                            <div class="hover-content-container">
+                                <div class="hover-content">
+                                    <div class="logo facebook icon">
+                                        <img class="rollover-icon" src=" assets/slices/icon-social-media_FaceBook.png" alt="Icon of FaceBook Logo" />
+                                    </div>
+                                    <div class="post-url-title">
+                                        <span class="facebook-url-suffix">/ UnionGeneral</span>
+                                    </div>
+                                    <div class="visit-original-post">
+                                        <img src="assets/slices/icons/icon-external-url-chain-b.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-b.jpg" alt="facebook post preview image" class="post-preview">
+                        </li>
+                        <li class="post facebook">
+                            <div class="hover-content-container">
+                                <div class="hover-content">
+                                    <div class="logo facebook icon">
+                                        <img class="rollover-icon" src=" assets/slices/icon-social-media_FaceBook.png" alt="Icon of FaceBook Logo" />
+                                    </div>
+                                    <div class="post-url-title">
+                                        <span class="facebook-url-suffix">/ UnionGeneral</span>
+                                    </div>
+                                    <div class="visit-original-post">
+                                        <img src="assets/slices/icons/icon-external-url-chain-b.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-c.jpg" alt="facebook post preview image" class="post-preview">
+                        </li>
+                        <li class="post facebook">
+                            <div class="hover-content-container">
+                                <div class="hover-content">
+                                    <div class="logo facebook icon">
+                                        <img class="rollover-icon" src=" assets/slices/icon-social-media_FaceBook.png" alt="Icon of FaceBook Logo" />
+                                    </div>
+                                    <div class="post-url-title">
+                                        <span class="facebook-url-suffix">/ UnionGeneral</span>
+                                    </div>
+                                    <div class="visit-original-post">
+                                        <img src="assets/slices/icons/icon-external-url-chain-b.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-d.jpg" alt="facebook post preview image" class="post-preview">
+                        </li>
+                        <li class="post facebook">
+                            <div class="hover-content-container">
+                                <div class="hover-content">
+                                    <div class="logo facebook icon">
+                                        <img class="rollover-icon" src=" assets/slices/icon-social-media_FaceBook.png" alt="Icon of FaceBook Logo" />
+                                    </div>
+                                    <div class="post-url-title">
+                                        <span class="facebook-url-suffix">/ UnionGeneral</span>
+                                    </div>
+                                    <div class="visit-original-post">
+                                        <img src="assets/slices/icons/icon-external-url-chain-b.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-a.jpg" alt="facebook post preview image" class="post-preview">
+                        </li>
+                        <li class="post facebook">
+                            <div class="hover-content-container">
+                                <div class="hover-content">
+                                    <div class="logo facebook icon">
+                                        <img class="rollover-icon" src=" assets/slices/icon-social-media_FaceBook.png" alt="Icon of FaceBook Logo" />
+                                    </div>
+                                    <div class="post-url-title">
+                                        <span class="facebook-url-suffix">/ UnionGeneral</span>
+                                    </div>
+                                    <div class="visit-original-post">
+                                        <img src="assets/slices/icons/icon-external-url-chain-b.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-b.jpg" alt="facebook post preview image" class="post-preview">
+                        </li>
+                        <li class="post facebook">
+                            <div class="hover-content-container">
+                                <div class="hover-content">
+                                    <div class="logo facebook icon">
+                                        <img class="rollover-icon" src=" assets/slices/icon-social-media_FaceBook.png" alt="Icon of FaceBook Logo" />
+                                    </div>
+                                    <div class="post-url-title">
+                                        <span class="facebook-url-suffix">/ UnionGeneral</span>
+                                    </div>
+                                    <div class="visit-original-post">
+                                        <img src="assets/slices/icons/icon-external-url-chain-b.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-c.jpg" alt="facebook post preview image" class="post-preview">
+                        </li>
+                        <li class="post facebook">
+                            <div class="hover-content-container">
+                                <div class="hover-content">
+                                    <div class="logo facebook icon">
+                                        <img class="rollover-icon" src=" assets/slices/icon-social-media_FaceBook.png" alt="Icon of FaceBook Logo" />
+                                    </div>
+                                    <div class="post-url-title">
+                                        <span class="facebook-url-suffix">/ UnionGeneral</span>
+                                    </div>
+                                    <div class="visit-original-post">
+                                        <img src="assets/slices/icons/icon-external-url-chain-b.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-d.jpg" alt="facebook post preview image" class="post-preview">
                         </li>
 
-                        <li class="post facebook">
-                            <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-b.png" alt="facebook post preview image" class="post-preview">
-                            </a>
-                        </li>
-                        <li class="post facebook">
-
-                            <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-c.png" alt="facebook post preview image" class="post-preview">
-                            </a>
-                        </li>
-                        <li class="post facebook">
-
-                            <a href="#" class="fb-post-CTA">
-                                <img class="responsive-fb-post" src="assets/slices/whats-new-posts/social-post-plc-d.png" alt="facebook post preview image" class="post-preview">
-                            </a>
-                        </li>
                     </ul>
+
                 </div>
             </div>
         </section>
@@ -524,7 +634,7 @@
                             <div class="adr">
                                 <div class="street-address">50 South Main Street</div>
                                 <div class="locality">Clarkston, MI </div>
-                                <div clasls="postal-code">48346</div>
+                                <div class="postal-code">48346</div>
                                 <div class="country-name">United States</div>
                             </div>
                             <div class="tel">Telephone: 248-620-3800</div>
@@ -553,16 +663,24 @@
 
                     <div class="form-container four columns">
                         <h1 class="headline join-mailing-list">Join Our Mailing List</h1>
-                      
                         
-                        <div id="form-messages"></div>
+                         
                         
+                          
+                          
+                           <div id="form-mailing-list-status-text" class="form-status-text-container">
+                            <div class="form-status-message">
+
+                            </div>
+
+                        </div>
+
                         <form id="email-subscription-signup" method="post" action="mail.php">
                             <div class="row">
                                 <label style="display:none;">First</label>
                                 <input class="newsletter-input-fName four columns" type="text" name="name-first" placeholder="First" required>
                                 <label style="display:none;">Last</label>
-                                <input class="newsletter-input-lName six columns offset-by-one" type="text" name="name-last" placeholder="Last" >
+                                <input class="newsletter-input-lName six columns offset-by-one" type="text" name="name-last" placeholder="Last">
                             </div>
                             <div class="row">
                                 <label style="display:none;">Email</label>
@@ -578,11 +696,10 @@
                 <!-- contact -->
             </div>
             <!-- contact -->
-
             <!-- slide -->
         </section>
-
     </main>
+
     <div id="footer">
         <div class="social-media">
             <ul class="sm-icons">

@@ -145,6 +145,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/source\/bugs-screenshots\/about-us-p1\/about-us-pg1-current-copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 271149,
+		"inputAbbreviatedPath": "\/assets\/source\/bugs-screenshots\/about-us-p1\/about-us-pg1-current-copy.png",
+		"outputAbbreviatedPath": "\/assets\/source\/bugs-screenshots\/about-us-p1\/about-us-pg1-current-copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/styles\/animate.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -460,42 +471,6 @@
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
-	"\/Build\/--index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Build\/--index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Build\/-old-nDex.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Build\/-old-nDex.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Build\/0--index.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Build\/0--index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Build\/1--index.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Build\/1--index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/Build\/_index-archive\/-----index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -514,11 +489,74 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Build\/_index-archive\/----index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/_index-archive\/----index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/_index-archive\/--index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/_index-archive\/--index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Build\/_index-archive\/-_-_index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Build\/_index-archive\/-_-_index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/_index-archive\/-old-nDex-2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/_index-archive\/-old-nDex-2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/_index-archive\/-old-nDex.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/_index-archive\/-old-nDex.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/_index-archive\/0--index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/_index-archive\/0--index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/_index-archive\/1--index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/_index-archive\/1--index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/_index-archive\/71316_1-37pmindex.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/_index-archive\/71316_1-37pmindex.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -591,6 +629,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Build\/_index-archive\/b4-form--index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/_index-archive\/HTML5-Sandbox-for-Mail-Form.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/_index-archive\/HTML5-Sandbox-for-Mail-Form.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1907,6 +1954,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Build\/assets\/slices\/icons\/icon-external-url-chain-b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19276,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/icons\/icon-external-url-chain-b.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/icons\/icon-external-url-chain-b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/icons\/icon-external-url-chain.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20948,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/icons\/icon-external-url-chain.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/icons\/icon-external-url-chain.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Build\/assets\/slices\/icons\/icon-external-url.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2093,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/icons\/icon-external-url.png",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/icons\/icon-external-url.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Build\/assets\/slices\/img-placeholder.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1984,6 +2064,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Build\/assets\/slices\/social-post-plc-d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29100,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/social-post-plc-d.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/social-post-plc-d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Build\/assets\/slices\/UnionGeneral_Site.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1995,46 +2086,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-a.png": {
-		"fileType": 32768,
+	"\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-a.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 342685,
-		"inputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-a.png",
-		"outputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-a.png",
+		"initialSize": 43930,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-a.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-a.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-b.png": {
-		"fileType": 32768,
+	"\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-b.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 287124,
-		"inputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-b.png",
-		"outputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-b.png",
+		"initialSize": 37925,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-b.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-b.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-c.png": {
-		"fileType": 32768,
+	"\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-c.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 23850,
-		"inputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-c.png",
-		"outputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-c.png",
+		"initialSize": 32473,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-c.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-c.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-d.png": {
-		"fileType": 32768,
+	"\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-d.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 289877,
-		"inputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-d.png",
-		"outputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-d.png",
+		"initialSize": 28998,
+		"inputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-d.jpg",
+		"outputAbbreviatedPath": "\/Build\/assets\/slices\/whats-new-posts\/social-post-plc-d.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2093,15 +2184,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Build\/functions\/mail.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Build\/functions\/mail.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/Build\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2116,6 +2198,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Build\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Build\/mail.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Build\/mail.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2161,15 +2252,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/mail-form-html5.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/mail-form-html5.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

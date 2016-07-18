@@ -12,6 +12,24 @@
 /*------------------- */
 /*------------------- */
 /*------------------- */
+/* Change the white to any color ;) */
+//input.newsletter-input-fName,
+//input.newsletter-input-lName,
+//input.newsletter-input-eMail:-webkit-autofill {
+//    background-color: purple !important;
+//
+//    -webkit-box-shadow: 0 0 0px  #E6D1B7 inset !important;
+//    -webkit-text-fill-color: $HEX-Salmon-Flat !important;
+//}
+//
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #E6D1B7 inset !important;
+    border: 1px solid $HEX-Salmon-Dark;
+    -webkit-text-fill-color: $HEX-Salmon-Flat !important;
+}
+
+
 
 textarea,
 select {

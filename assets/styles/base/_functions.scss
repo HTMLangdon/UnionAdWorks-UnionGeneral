@@ -22,11 +22,11 @@
     background-size: cover;
 }
 //mixin SPECIFIC for cupcake gallery! (make global funciton later)
-@mixin rowMachine($numPerRow, $margin) {
+@mixin rowMachine($numPerRow, $margin, $oColor: 'green') {
     //  width: ((100% - (($numPerRow - 1) * $margin)) / $numPerRow);
     &:nth-child(n) {
-        //        margin-bottom: $margin;
-        //        margin-right: $margin;
+        //if need margin - get from passed var called '$margin' (obviously)...
+        outline: $margin solid $oColor;
     }
     &:nth-child(n):after {
         clear: none;

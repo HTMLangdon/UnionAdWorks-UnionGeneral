@@ -1,36 +1,45 @@
 var count = 0;
 
 function initCupcallery() {
+    console.log('initCupcallery() called...');
     $('.gallery').each(function () { // the containers for all your galleries
         $(this).magnificPopup({
             delegate: 'a', // the selector for gallery item
             type: 'image',
+            callbacks: {
+                close: function () {
+
+                    $("body,html").css("overflow", "initial");
+                }
+            },
             gallery: {
                 enabled: true
             }
+
         });
     });
 }
 
 function onSiteImagesLoadComplete() {
     $('img').error(function () {
-        console.log("image not found, or not loaded - replacing with general image. Initial attempted image to load:" + $(this).attr("src"));
-        console.log("image not found, or not loaded - replacing with general image. Initial attempted image to load:" + $(this).attr("src"));
         var imageContainerW = $($(this).parent).attr("width");
         var imageContainerH = $($(this).parent).attr("height");
         console.log("image not found, or not loaded - intended container's dimensions (wxh):");
-        console.log(imageContainerW);
-        console.log(imageContainerH);
-        $(this).attr('src', 'assets/slices/img-placeholder.png');
+        //        $(this).attr('src', 'assets/slices/img-placeholder.png');
     });
 }
 
+
 function setupFullBrowserSections() {
+    console.log('setup full screen browser sections function called. When "FULLPAGE.JS has finished loading, "initCupcallery()" will be called [in "afterRender" handler]');
     count = $("nav.navigation-main ul").children().length;
     $('.fullBrowserSections').fullpage({
         csss3: true,
         fitToSection: false,
-        autoScrolling: false
+        autoScrolling: false,
+        afterRender: function () {
+            initCupcallery();
+        }
     });
 }
 
@@ -45,16 +54,17 @@ function initMainMenu() {
     });
 
     // Toggle open and close nav styles on click
-    $('#btn-hamurberX').click(function () {
+    $('#btn-hamburgerX').click(function () {
         $('nav ul').slideToggle();
     });
 
     // Hamburger to X toggle
-    $('#btn-hamurberX').on('click', function () {
+    $('#btn-hamburgerX').on('click', function () {
         this.classList.toggle('active');
     });
 
     $("nav ul li a.nav-title, nav ul li a:visited.nav-title").click(function (e) {
+        alert("cleek!");
         $('#btn-hamburgerX').click(null);
     });
 
@@ -69,7 +79,7 @@ function setupSignUpEmailForm() {
     var firstName = $(".newsletter-input-fName")
     var lastName = $(".newsletter-input-lName");
     var email = $(" .newsletter-input-eMail");
-    var statusMessage = $(".form-error-messages .newsletter-span-errors");
+    var statusMessage = $('#form-mailing-list-status-text.form-status-text-container .form-status-message');
 
 
     // Set up an event listener for the contact form.
@@ -79,10 +89,6 @@ function setupSignUpEmailForm() {
 
         // Serialize the form data.
         var formData = $(form).serialize();
-
-
-        //        console.log(formData);
-
         // Submit the form using AJAX.
         $.ajax({
                 type: 'POST',
@@ -90,6 +96,8 @@ function setupSignUpEmailForm() {
                 data: formData
             })
             .done(function (response) {
+                
+            
                 console.log("done. ");
                 console.log("RESPONSE:");
 
@@ -113,6 +121,7 @@ function setupSignUpEmailForm() {
                 // Set the message text.
                 $(statusMessage).text(response);
 
+
                 // Clear the form.
                 $('.newsletter-input-fName').val('');
                 $('.newsletter-input-lName').val('');
@@ -121,13 +130,12 @@ function setupSignUpEmailForm() {
 
             })
             .fail(function (data) {
-                // Make sure that the email div has the 'error' class.
+                // Make sure ethat the email div has the 'error' class.
                 $(email).removeClass('success');
                 $(email).addClass('error');
-                console.log("FAIL");
-                console.log("DATA:");
+                console.log('warning something has caused an error while attempting to send your email. [DOT]Fail:');
                 console.log(data);
-
+                
                 // Set the message text.
                 if (data.responseText !== '') {
                     console.log(data);
@@ -140,19 +148,57 @@ function setupSignUpEmailForm() {
     });
 }
 
+
+
+// mouse events for the f----
+function setupSocialMediaPostEvents() {
+    var __this = $("li.post.facebook .hover-content-container .hover-content");
+    __this.velocity("fadeOut", {
+        duration: 10,
+        queue: false
+    });
+
+    $("li.post.facebook").hover(
+        function (e) {
+            var __this = $(this);
+            $(this).find(".hover-content-container .hover-content").velocity("fadeIn", {
+                duration: 500,
+                queue: false
+            });
+        },
+        function (e) {
+            var __this = $(this);
+            $(this).find(".hover-content-container .hover-content").velocity("fadeOut", {
+                duration: 500,
+                queue: false
+            });
+        }
+
+    );
+
+    $("ul.social-media-posts li.post.facebook a").click(function (e) {});
+    //assets/slices/icon-social-media_FaceBook.png
+}
+
+
+
+
 $(window).resize(function (e) {
     checkDisplayDimensions();
 });
 
+
 $(document).ready(function () {
+
     checkDisplayDimensions();
     setupFullBrowserSections();
     initMainMenu();
-    initCupcallery();
+//    initCupcallery(); //initialized after fullpage .js is loaded and initialized due to strange conflicting issues
     onSiteImagesLoadComplete();
     setupSignUpEmailForm();
 
 
+    setupSocialMediaPostEvents()
 
 
     var _rollbarConfig = {
@@ -330,6 +376,8 @@ $(document).ready(function () {
             }
         }
     }]);
+
+
 
 
     window.onerror("TestError: Hello world", window.location.href);

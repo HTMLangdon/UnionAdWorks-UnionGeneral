@@ -100,29 +100,37 @@
         </div>
 
         <nav class="navigation-main">
-            <div class="nav-mobile-button"><a id="btn-hamurberX" href="#!"><span></span></a></div>
+            <div class="nav-mobile-button"><a id="btn-hamburgerX" href="#!"><span></span></a></div>
             <ul>
-                <li data-menuanchor="sHome" class="main-nav-item">
+               
+
+                <li id="anchor-main-nav-section--home" data-menuanchor="sHome" class="main-nav-item">
                     <a href="#sHome" class="nav-title">Home</a>
+                    
                 </li>
-                <li data-menuanchor="sAbout_a" class="main-nav-item">
+                <li id="anchor-main-nav-section--about_a" data-menuanchor="sAbout_a" class="main-nav-item">
                     <a href="#sAbout_a" class="nav-title">About Us</a>
+                    
                 </li>
-                <li data-menuanchor="sCupcakery" class="main-nav-item">
+                <li id="anchor-main-nav-section--cupcakery" data-menuanchor="sCupcakery" class="main-nav-item">
                     <a href="#sCupcakery" class="nav-title">Cupcakery</a>
+                    
                 </li>
-                <li data-menuanchor="sBoutique" class="main-nav-item">
+                <li id="anchor-main-nav-section--boutique" data-menuanchor="sBoutique" class="main-nav-item">
                     <a href="#sBoutique" class="nav-title">Boutique</a>
+                    
                 </li>
-                <li data-menuanchor="sNews" class="main-nav-item">
+                <li id="anchor-main-nav-section--news" data-menuanchor="sNews" class="main-nav-item">
                     <a href="#sNews" class="nav-title">News</a>
+                    
                 </li>
-                <li data-menuanchor="sContact" class="main-nav-item">
+                <li id="anchor-main-nav-section--contact" data-menuanchor="sContact" class="main-nav-item">
                     <a href="#sContact" class="nav-title">Contact Us</a>
+                    
                 </li>
             </ul>
         </nav>
-    </header>
+    </header>                                     
 
     <main class="fullBrowserSections">
 
@@ -655,8 +663,16 @@
 
                     <div class="form-container four columns">
                         <h1 class="headline join-mailing-list">Join Our Mailing List</h1>
-                        <div id="form-messages">
-                            <span class="errors"></span>
+                        
+                         
+                        
+                          
+                          
+                           <div id="form-mailing-list-status-text" class="form-status-text-container">
+                            <div class="form-status-message">
+
+                            </div>
+
                         </div>
 
                         <form id="email-subscription-signup" method="post" action="mail.php">

@@ -116,81 +116,160 @@ li {
         }
     }
 }
-.sCupcakeryGallery .slide .content {
-    p.copy {
-        color: $HEX-Salmon-Flat;
-        padding: 0px 10px;
-    }
-    ul.cupcake-items {
-        @media only screen and (min-width: 415px) {
-            max-width: 356px;
-        }
-        @media only screen and (min-width:615px) {
-            max-width: 534px;
-        }
-        @media only screen and (min-width:820px) {
-            max-width: 712px;
-        }
-        @media only screen and (min-width:1025px) {
-            max-width: 890px;
-        }
-        margin: 0 auto;
-        &:after {
-            clear: both;
-            content: '';
-            display: table;
-        }
-        li.cupcake-item {
-            @include rowMachine(2,
-            5px);
-            box-sizing: border-box;
-            width: 50%;
-            height: 50%;
-            padding: 10px;
-            max-width: 178px;
-            max-height: 178px;
-            list-style: none;
-            text-align: center;
-            float: left;
-            a {
-                img {
-                    width: 100%;
-                    height: 100%;
-                    max-width: 178px;
-                    max-height: 178px;
+.cupcakery-gallery-contents {
+    padding: 0 0 5% 0;
+    .slide {
+        .content {
+            p {
+                &.copy {
+                    color: $HEX-Salmon-Flat;
+                    padding: 0px 10px;
+                    &:nth-child(1) {
+                        padding: 5% 0 0 0;
+                    }
                 }
             }
-            @media only screen and (min-width:415px) {
-                width: 100%;
-                height: 100%;
-                @include rowMachine(2,
-                10px);
+            ul.cupcake-items {
+                @media only screen and (min-width: 415px) {
+                    max-width: 356px;
+                }
+                @media only screen and (min-width:615px) {
+                    max-width: 534px;
+                }
+                @media only screen and (min-width:820px) {
+                    max-width: 712px;
+                }
+                @media only screen and (min-width:1025px) {
+                    max-width: 890px;
+                }
+                margin: 0 auto;
+                &:after {
+                    clear: both;
+                    content: '';
+                    display: table;
+                }
+                li.cupcake-item {
+                    @include rowMachine(2,
+                    5px);
+                    box-sizing: border-box;
+                    width: 50%;
+                    height: 50%;
+                    padding: 10px;
+                    max-width: 178px;
+                    max-height: 178px;
+                    list-style: none;
+                    text-align: center;
+                    float: left;
+                    a {
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            max-width: 178px;
+                            max-height: 178px;
+                        }
+                    }
+                    @media only screen and (min-width:415px) {
+                        width: 100%;
+                        height: 100%;
+                        @include rowMachine(2,
+                        10px);
+                    }
+                    @media only screen and (min-width:615px) {
+                        @include rowMachine(3,
+                        10px);
+                    }
+                    @media only screen and (min-width:820px) {
+                        @include rowMachine(4,
+                        10px);
+                    }
+                    @media only screen and (min-width:1025px) {
+                        @include rowMachine(5,
+                        10px);
+                    }
+                    //           @media only screen and (max-width:410px) {
+                    //                @include rowMachine(5,10px);
+                    //            }
+                }
             }
-            @media only screen and (min-width:615px) {
-                @include rowMachine(3,
-                10px);
-            }
-            @media only screen and (min-width:820px) {
-                @include rowMachine(4,
-                10px);
-            }
-            @media only screen and (min-width:1025px) {
-                @include rowMachine(5,
-                10px);
-            }
-            //           @media only screen and (max-width:410px) {
-            //                @include rowMachine(5,10px);
-            //            }
         }
     }
 }
-.boutique-contents .slide {
-    color: $HEX-Pure-White;
-    //    background-color: beige;
-    background-image: url(../slices/background-image-sBoutique-a.jpg);
+//.sCupcakeryGallery .slide .content {
+//    p.copy {}
+//   
+//    
+//    
+//    
+//}
+.boutique-contents {
+    .slide {
+        color: $HEX-Pure-White;
+        //    background-color: beige;
+        background-image: url(../slices/background-image-sBoutique-a.jpg);
+        .content {
+            h1 {
+                &.headline {
+                    color: $HEX-Pure-White;
+                }
+            }
+        }
+    }
+}
+ul.social-media-posts {
+    li.post.facebook {
+        cursor: pointer;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding: 0 0 0 0 !important;
+        margin: 0 0 0 0 !important;
+        max-width: 354px;
+        max-height: 355px;
+        list-style: none;
+        text-align: center;
+        float: left;
+        position: relative;
+        .hover-content-container {
+            background: rgba(0, 0, 0, .5);
+            height: 100%;
+            .hover-content {
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.6);
+                box-sizing: border-box;
+                z-index: 10;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: inherit;
+                min-width: 50px;
+                min-height: 51px;
+                margin: 0;
+                padding: 45% 0px;
+                .logo.facebook.icon {
+                    width: 100%;
+                    top: -15px;
+                    position: relative;
+                    height: 100%;
+                }
+                .visit-original-post {
+                    img {
+                        max-height: 30px;
+                        max-width: 30px;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    text-align: center;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
 }
 .news-contents {
-    padding: 5% 0 0 0;
+    padding: 5% 0 3% 0;
     .slide {
         .content {
             h1.headline {
@@ -205,6 +284,9 @@ li {
                 @media only screen and (min-width: 710px) {
                     max-width: 708px;
                 }
+                @media only screen and (min-width:1063px) {
+                    max-width: 1062px;
+                }
                 @media only screen and (min-width:1440px) {
                     max-width: 1416px;
                 }
@@ -217,41 +299,44 @@ li {
                 li.post.facebook {
                     @include rowMachine(1,
                     5px);
-                    box-sizing: border-box;
-                    width: 100%;
-                    height: 100%;
-                    padding: 0 0 0 0 !important;
-                    margin: 0 0 0 0 !important;
-                    max-width: 354px;
-                    max-height: 355px;
-                    list-style: none;
-                    text-align: center;
-                    float: left;
+                    cursor: pointer;
                     a {
                         padding: 0 0 0 0 !important;
                         margin: 0 0 0 0 !important;
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: inherit;
+                        display: block;
                         img {
-                            width: 100%;
-                            height: 100%;
-                            padding: 0 0 0 0 !important;
-                            margin: 0 0 0 0 !important;
-                            max-width: 354px;
-                            max-height: 355px;
+                            &.rollover-icon {
+                                width: 100%;
+                                height: 100%;
+                                padding: 0 0 0 0 !important;
+                                margin: 0 0 0 0 !important;
+                                max-width: 50px;
+                                max-height: 51px;
+                                min-width: 30px;
+                                min-height: 31px;
+                            }
                         }
                     }
-                    //                    @media only screen and (min-width:710px) {
-                    //                        @include rowMachine(2,
-                    //                        5px);
-                    //                    }
-                    //                    
+                    @media only screen and (min-width:710px) {
+                        @include rowMachine(2,
+                        5px,
+                        'pink');
+                    }
                     @media only screen and (min-width:1062px) {
                         @include rowMachine(3,
-                        5px);
+                        15px,
+                        'blue');
                     }
-                    //                    @media only screen and (min-width:1420px) {
-                    //                        @include rowMachine(4,
-                    //                        5px);
-                    //                    }
+                    @media only screen and (min-width:1420px) {
+                        @include rowMachine(4,
+                        25px,
+                        'green');
+                    }
                 }
             }
         }
@@ -262,6 +347,19 @@ li {
         padding: 5% 0 0 0;
         color: $HEX-Pure-White;
         background-color: $HEX-Salmon-Flat;
+        .company-information .vcard .adr .street-address {}
+        .company-information .vcard .adr .locality {
+            float: left;
+            margin-right: 3px;
+        }
+        .company-information .vcard .adr .postal-code {
+            float: left;
+        }
+        .company-information .vcard .adr .country-name {
+            clear: both;
+        }
+        .company-information .vcard .adr .tel {}
+        .company-information .vcard .adr .email {}
         .logo-container {
             margin: 0px 0px 30px 0px;
         }
@@ -303,11 +401,19 @@ li {
         ul.sm-icons {
             margin: 0 0 0 0;
             li.icon {
-                padding: 2% 2% 2% 2%;
+                padding: 10px 10px;
                 margin: 0 0 0 0;
                 display: inline-block;
                 a {
                     text-decoration: none;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        max-width: 40px;
+                        max-height: 41px;
+                        min-width: 20px;
+                        min-height: 21px;
+                    }
                 }
             }
         }

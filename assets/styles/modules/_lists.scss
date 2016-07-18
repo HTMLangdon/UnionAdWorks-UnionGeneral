@@ -42,36 +42,52 @@ li {
 
 /* ------------------------------- */
 
+// Navigation Variables
+$content-width: 100%;
+$breakpoint: 811px;
+$nav-height: 65px;
+$nav-height-m:40px;
+$nav-hamburger-btn-height: 37px;
+
+/*(($nav-height-m -3)*/
+
+;
+$nav-hamburger-btn-width: 37px;
+
+/*($nav-height-m - 3)*/
+
+;
 header {
     position: fixed;
     width: 100%;
     background-color: $nav-bg-color;
-//    font-family: $font-family-navigation;
-//    font-size: $nav-font-size;
-    height: 65px;
+    //    font-family: $font-family-navigation;
+    //    font-size: $nav-font-size;
     z-index: 100;
-    top: 10px;
+    height: $nav-height-m;
+    top: 5px;
+    // For devices larger than 400px
+    @media (#{$bp-larger-than-mobile}) {
+        height: $nav-height;
+        top: 10px;
+    }
 }
-// Navigation Variables
-$content-width: 100%;
-$breakpoint: 811px;
-$nav-height: 70px;
-
 // Logo and branding
 .navigation-logo {
     position: absolute;
-    padding-left: 20px;
+    //    top: 15px;
+    top: 6px;
+    left: 5px;
+    @media (#{$bp-larger-than-mobile}) {
+        top: 20px;
+        left: 20px;
+    }
     float: left;
-    line-height: $nav-height;
-    text-transform: uppercase;
-    font-size: 1.4em;
 }
-
 // Navigation 
 nav {
     background-color: #8b7980;
     float: right;
-    
     ul {
         display: block;
         list-style: none;
@@ -82,56 +98,78 @@ nav {
             float: left;
             position: relative;
             cursor: pointer;
-            top:10px;
+            top: 10px;
             a,
             a:visited {
                 cursor: pointer;
                 display: block;
                 padding: 0 20px;
                 text-decoration: none;
-
                 &.nav-title {
                     font-size: $nav-font-size !important;
                     color: $nav-font-color !important;
                     font-family: $font-family-navigation !important;
-                    
                 }
-   
-                
-                
                 &:hover {}
                 &:not(:only-child):after {
                     padding-left: 4px;
                     content: ' ▾';
                 }
-            } 
+            }
         }
     }
 }
+
+
+/* //main navigation individiual li item ids// */
+
+#anchor-main-nav-section--home,
+anchor-main-nav-section--about_a,
+anchor-main-nav-section--cupcakery,
+anchor-main-nav-section--boutique,
+anchor-main-nav-section--news,
+anchor-main-nav-section--contact {}
 // Binds to JS Toggle
 .nav-mobile-button {
     display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: $nav-height;
-    width: $nav-height;
+    float: right;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 18px;
+    right: 25px;
+    z-index: 999;
+    width: $nav-hamburger-btn-width;
+    height: $nav-hamburger-btn-height;
+    @media (#{$bp-larger-than-mobile}) {
+        top: 31px;
+        right: 21px;
+        height: $nav-height;
+        width: $nav-height;
+    }
 }
 nav.navigation-main ul li.main-nav-item a.nav-title:hover {
     color: $nav-font-color-hover !important;
 }
 @media only screen and (max-width: $breakpoint) {
+nav ul li#anchor-main-nav-section--home {
+    margin: 0 0 0 0;
+}
     // Hamburger nav visible on mobile only
     .nav-mobile-button {
         display: block;
     }
     nav {
         width: 100%;
-        padding: $nav-height 0 15px;
+        //        padding: $nav-height-m 0 15px;
+        @media (#{$bp-larger-than-mobile}) {
+            //            padding: $nav-height 0 15px;
+        }
         ul {
             display: none;
             li {
-                
                 float: none;
                 a {
                     padding: 15px;
@@ -152,12 +190,12 @@ nav.navigation-main ul li.main-nav-item a.nav-title:hover {
         display: block !important;
     }
 }
-#btn-hamurberX {
+#btn-hamburgerX {
     position: absolute;
-    left: 18px;
-    top: 22px;
     cursor: pointer;
-    padding: 10px 35px 16px 0px;
+    width: inherit;
+    z-index: 999;
+    height: inherit;
     span,
     span:before,
     span:after {

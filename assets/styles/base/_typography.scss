@@ -58,6 +58,8 @@ body {
                     text-align: center;
                     font-size: 12px;
                     margin: 0 0 0 0;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
                 }
                 h2.headline {
                     font-family: $font-family-headline-second !important;
@@ -67,7 +69,6 @@ body {
                 }
             }
         }
-       
         &.contact-contents {
             .slide {
                 .content {
@@ -86,6 +87,12 @@ body {
             .slide {
                 .content {
                     .company-hours {
+                        ul.hours-of-operation {
+                            li.day-hour {
+                                margin: 0 0 0 0;
+                                padding: 0 0 0 0;
+                            }
+                        }
                         h1.headline {
                             text-align: left;
                             color: $HEX-Pure-White;
@@ -124,9 +131,9 @@ body {
         }
     }
 }
-
-
- body section.contact-contents .slide .content h1.headline{font-size: 36px;}
+body section.contact-contents .slide .content h1.headline {
+    font-size: 36px;
+}
 
 /*  THIS IS FOR  THE JOIN THE MAILING LIST HEADLINE ON CONTACT PAGE - BREAKS FOR A MOMENT BEFORE BECMOING SMALLER */
 
