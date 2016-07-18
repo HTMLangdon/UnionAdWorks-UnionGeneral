@@ -1,6 +1,6 @@
 <?php
 
-
+/*
 
 if (!function_exists('http_response_code')) 
 {
@@ -73,10 +73,10 @@ if (!function_exists('http_response_code'))
 
 
 
+ 
 
-    // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        
+        echo '<script>console.log("submission of form complete....pending...");</script>';
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["fName"]));
         $name .= "&nbsp";
@@ -96,10 +96,10 @@ if (!function_exists('http_response_code'))
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "hello@example.com";
+        $recipient = "langdon@unionadworks.com";
 
         // Set the email subject.
-        $subject = "New contact from $name";
+        $subject = "New message: from $name" . " via Union General Website.";
 
         // Build the email content.
         $email_content = "Name: $name\n";
@@ -108,11 +108,7 @@ if (!function_exists('http_response_code'))
 
         // Build the email headers.
         $email_headers = "From: $name <$email>";
-
         echo '<script>console.log("data: '. $name . ' ---- '. $email .'");</script>';
-        
-        
-        
         
         // Send the email.
         if (mail($recipient, $subject, $email_content, $email_headers)) {
@@ -120,14 +116,14 @@ if (!function_exists('http_response_code'))
             echo '<script>console.log("email sent");</script>';
 
             http_response_code(200);
-            echo "Thank You! Your message has been sent.";
+            return "Thank You! Your message has been sent.";
         }
         else 
         {
             // Set a 500 (internal server error) response code.
             echo '<script>console.log("email NOT sent");</script>';
             http_response_code(500);
-            echo "Oops! Something went wrong and we couldn't send your message.";
+            return "There was a problem with sending your message, please try again later.";
         }
 
     } 
@@ -140,4 +136,12 @@ if (!function_exists('http_response_code'))
         echo "There was a problem with your submission, please try again.";
     }
 
+
+*/
+
+
+return "Message Sen†!";
+
+
 ?>
+
