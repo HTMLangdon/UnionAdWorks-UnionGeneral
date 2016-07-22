@@ -184,7 +184,7 @@
             </div>
         </section>
 
-        <section data-anchor="sCupcakery" class="cupcakery-contents section row">
+        <section data-anchor="sCupcakery" class="cupcakery-contents section row fp-auto-height">
             <div class="slide">
                 <div class="cupcake-image eight columns">
                     <img class="responsive-img-cupcakes" src="assets/slices/section-hero-image-cupcakery.jpg" alt="">
@@ -637,8 +637,8 @@
                                 <div class="postal-code">48346</div>
                                 <div class="country-name">United States</div>
                             </div>
-                            <div class="tel">Telephone: 248-620-3800</div>
-                            <div class="email">Email: info@uniongeneral.com</div>
+                            <div class="tel">Telephone: <span style="color:$HEX-Pure-White; cursor:pointer;">248-620-3800</span></div>
+                            <div class="email">Email: <a href="#popup-quickmail-info">info@uniongeneral.com</a></div>
                         </div>
                         <!--  </address> -->
                         <div class="company-hours">
@@ -663,10 +663,6 @@
 
                     <div class="form-container four columns">
                         <h1 class="headline join-mailing-list">Join Our Mailing List</h1>
-                        
-                         
-                        
-                          
                           
                            <div id="form-mailing-list-status-text" class="form-status-text-container">
                             <div class="form-status-message">

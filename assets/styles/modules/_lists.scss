@@ -119,7 +119,9 @@ nav {
         }
     }
 }
-
+nav ul li#anchor-main-nav-section--home {
+    margin: 40px 0 0 0;
+}
 
 /* //main navigation individiual li item ids// */
 
@@ -154,9 +156,6 @@ nav.navigation-main ul li.main-nav-item a.nav-title:hover {
     color: $nav-font-color-hover !important;
 }
 @media only screen and (max-width: $breakpoint) {
-nav ul li#anchor-main-nav-section--home {
-    margin: 0 0 0 0;
-}
     // Hamburger nav visible on mobile only
     .nav-mobile-button {
         display: block;
@@ -186,6 +185,9 @@ nav ul li#anchor-main-nav-section--home {
     }
 }
 @media screen and (min-width: $breakpoint) {
+    nav ul li#anchor-main-nav-section--home {
+        margin: 0 0 0 0;
+    }
     .navigation-main ul {
         display: block !important;
     }

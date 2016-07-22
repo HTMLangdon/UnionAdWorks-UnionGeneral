@@ -49,9 +49,12 @@ function checkDisplayDimensions() {
 
 function initMainMenu() {
     // Clicking away from dropdown will remove the dropdown class
-    $('html').click(function () {
-        $('.nav-dropdown').hide();
-    });
+//    $('html').click(function () {
+//        $('.nav-dropdown').hide();
+//        $('#btn-hamburgerX').trigger("click", {
+//            "triggered": true
+//        });
+//    });
 
     // Toggle open and close nav styles on click
     $('#btn-hamburgerX').click(function () {
@@ -63,9 +66,16 @@ function initMainMenu() {
         this.classList.toggle('active');
     });
 
-    $("nav ul li a.nav-title, nav ul li a:visited.nav-title").click(function (e) {
-        alert("cleek!");
-        $('#btn-hamburgerX').click(null);
+    $("nav ul li a.nav-title, nav ul li a.nav-title").click(function (e) {
+//        if ($(document).width() >= 815) {
+//            console.log("larger than 815 - document");
+//            return;
+//        } else {
+//            console.log("less than 815 - document");
+//            $('#btn-hamburgerX').trigger("click", {
+//                "triggered": true
+//            });
+//        }
     });
 
 }
@@ -96,16 +106,10 @@ function setupSignUpEmailForm() {
                 data: formData
             })
             .done(function (response) {
-                
-            
                 console.log("done. ");
                 console.log("RESPONSE:");
-
                 console.log(response);
                 console.log("");
-
-
-
 
                 // Make sure that the email div has the 'success' class.
                 $(email).removeClass('error');
@@ -117,10 +121,8 @@ function setupSignUpEmailForm() {
                 $(lastName).addClass('success');
 
 
-
                 // Set the message text.
                 $(statusMessage).text(response);
-
 
                 // Clear the form.
                 $('.newsletter-input-fName').val('');
@@ -135,7 +137,7 @@ function setupSignUpEmailForm() {
                 $(email).addClass('error');
                 console.log('warning something has caused an error while attempting to send your email. [DOT]Fail:');
                 console.log(data);
-                
+
                 // Set the message text.
                 if (data.responseText !== '') {
                     console.log(data);
@@ -193,7 +195,7 @@ $(document).ready(function () {
     checkDisplayDimensions();
     setupFullBrowserSections();
     initMainMenu();
-//    initCupcallery(); //initialized after fullpage .js is loaded and initialized due to strange conflicting issues
+    //    initCupcallery(); //initialized after fullpage .js is loaded and initialized due to strange conflicting issues
     onSiteImagesLoadComplete();
     setupSignUpEmailForm();
 

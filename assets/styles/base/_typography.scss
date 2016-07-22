@@ -73,11 +73,16 @@ body {
             .slide {
                 .content {
                     .form-container {
-                        h1.headline.join-mailing-list {
+                        h1.headline.join-mailing-list,
+                        h1.headline.address,
+                        h1.headline.hours {
                             text-align: left;
                             font-family: $font-family-headline-second !important;
-                            font-size: 36px !important;
                             color: $HEX-Pure-White;
+                            font-size: 22px !important;
+                            @media only screen and (min-width: 710px) {
+                                font-size: 36px !important;
+                            }
                         }
                     }
                 }
@@ -97,6 +102,11 @@ body {
                             text-align: left;
                             color: $HEX-Pure-White;
                             font-family: $font-family-headline-second !important;
+                         
+                            font-size: 22px !important;
+                            @media only screen and (min-width: 710px) {
+                                font-size: 36px !important;
+                            }
                         }
                     }
                 }
@@ -111,6 +121,11 @@ body {
                                 font-family: $font-family-headline-second !important;
                                 color: $HEX-Pure-White;
                                 text-align: left;
+
+                            font-size: 22px !important;
+                            @media only screen and (min-width: 710px) {
+                                font-size: 36px !important;
+                            }
                             }
                         }
                     }

@@ -217,14 +217,44 @@ li {
 }
 ul.social-media-posts {
     li.post.facebook {
+                    @include rowMachine(2,
+                    5px);
         cursor: pointer;
         box-sizing: border-box;
-        width: 100%;
-        height: 100%;
+       
+        width: 45%;
+        height: 45%;
+        max-width: 159px;
+        max-height: 159px;
+        
+
+        @media only screen and (min-width:710px) {
+//            @include rowMachine(2,
+//            5px,
+//            'pink');
+           
+            width: 100%;
+            height: 100%;
+            max-width: 354px;
+            max-height: 355px;
+        }
+        
+//        @media only screen and (min-width:1062px) {
+//            @include rowMachine(3,
+//            15px,
+//            'blue');
+//        }
+//        
+//        @media only screen and (min-width:1420px) {
+//            @include rowMachine(4,
+//            25px,
+//            'green');
+//        }    
+        
+        
+        
         padding: 0 0 0 0 !important;
         margin: 0 0 0 0 !important;
-        max-width: 354px;
-        max-height: 355px;
         list-style: none;
         text-align: center;
         float: left;
@@ -274,6 +304,7 @@ ul.social-media-posts {
         .content {
             h1.headline {
                 color: $HEX-Salmon-Flat;
+                
             }
             p.copy {
                 color: $HEX-Salmon-Flat;
@@ -297,8 +328,9 @@ ul.social-media-posts {
                     display: table;
                 }
                 li.post.facebook {
-                    @include rowMachine(1,
-                    5px);
+                    //moved above to the main styles of this element ^
+//                    @include rowMachine(1,
+//                    5px);
                     cursor: pointer;
                     a {
                         padding: 0 0 0 0 !important;
@@ -310,6 +342,7 @@ ul.social-media-posts {
                         height: inherit;
                         display: block;
                         img {
+                            
                             &.rollover-icon {
                                 width: 100%;
                                 height: 100%;
@@ -326,6 +359,7 @@ ul.social-media-posts {
                         @include rowMachine(2,
                         5px,
                         'pink');
+                        
                     }
                     @media only screen and (min-width:1062px) {
                         @include rowMachine(3,
@@ -344,6 +378,9 @@ ul.social-media-posts {
 }
 .contact-contents {
     .slide {
+        #form-mailing-list-status-text.form-status-text-container .form-status-message {
+            padding: 2% 0;
+        }
         padding: 5% 0 0 0;
         color: $HEX-Pure-White;
         background-color: $HEX-Salmon-Flat;
