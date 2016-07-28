@@ -9,8 +9,6 @@
 
 <head>
     <?php
-
-
         if ($_POST['submit']) {
             echo '<div style="width:10%; heiht:100px font-size:25px; color:blue; position:fixed; top:100px; left:0;">FORM SuBMITTED</div>';
 
@@ -20,14 +18,12 @@
                 } else 
                 { 
                     echo '<p>Something went wrong, go back and try again!</p>'; 
-                } 
-
+                }
             } else 
             {
                 echo '<p>You need to fill in all required fields!!</p>';
             }
-        }    
-
+        }
         ?>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -102,35 +98,35 @@
         <nav class="navigation-main">
             <div class="nav-mobile-button"><a id="btn-hamburgerX" href="#!"><span></span></a></div>
             <ul>
-               
+
 
                 <li id="anchor-main-nav-section--home" data-menuanchor="sHome" class="main-nav-item">
                     <a href="#sHome" class="nav-title">Home</a>
-                    
+
                 </li>
                 <li id="anchor-main-nav-section--about_a" data-menuanchor="sAbout_a" class="main-nav-item">
                     <a href="#sAbout_a" class="nav-title">About Us</a>
-                    
+
                 </li>
                 <li id="anchor-main-nav-section--cupcakery" data-menuanchor="sCupcakery" class="main-nav-item">
                     <a href="#sCupcakery" class="nav-title">Cupcakery</a>
-                    
+
                 </li>
                 <li id="anchor-main-nav-section--boutique" data-menuanchor="sBoutique" class="main-nav-item">
                     <a href="#sBoutique" class="nav-title">Boutique</a>
-                    
+
                 </li>
                 <li id="anchor-main-nav-section--news" data-menuanchor="sNews" class="main-nav-item">
                     <a href="#sNews" class="nav-title">News</a>
-                    
+
                 </li>
                 <li id="anchor-main-nav-section--contact" data-menuanchor="sContact" class="main-nav-item">
                     <a href="#sContact" class="nav-title">Contact Us</a>
-                    
+
                 </li>
             </ul>
         </nav>
-    </header>                                     
+    </header>
 
     <main class="fullBrowserSections">
 
@@ -223,208 +219,208 @@
 
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Bunnycake.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Bunnycake.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Bunnycake.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Coco.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Coco.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Coco.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Delovely.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Delovely.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Delovely.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Hummingbird.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Hummingbird.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Hummingbird.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Mocha.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Mocha.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Mocha.jpg" />
                             </a>
                         </li>
                         <!---->
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/PB&J.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-PB&J.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-PB&J.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Raspberry_Beret.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Raspberry_Beret.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Raspberry_Beret.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Shindig.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Shindig.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Shindig.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Sweetie.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Sweetie.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Sweetie.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Baby_I'm_A_Star.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Baby_I'm_A_Star.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Baby_I'm_A_Star.jpg" />
                             </a>
                         </li>
 
                         <!-- -->
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Carm.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Carm.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Carm.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Cookie_n_Cream.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Cookie_n_Cream.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Cookie_n_Cream.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Elvis.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Elvis.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Elvis.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Malty.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Malty.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Malty.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Molten_Lava.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Molten_Lava.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Molten_Lava.jpg" />
                             </a>
                         </li>
                         <!---->
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Patti.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Patti.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Patti.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Red_Velvet.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Red_Velvet.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Red_Velvet.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Splendid.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Splendid.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Splendid.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/The_General.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-The_General.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-The_General.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Babycake.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Babycake.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Babycake.jpg" />
                             </a>
                         </li>
 
 
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Cassius.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Cassius.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Cassius.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Creamsicle.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Creamsicle.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Creamsicle.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Genius_of _Love.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Genius_of _Love.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Genius_of _Love.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Mint_Chippy.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Mint_Chippy.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Mint_Chippy.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Mr_Nutty.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Mr_Nutty.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Mr_Nutty.jpg" />
                             </a>
                         </li>
 
                         <!---->
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Peanutty.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Peanutty.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Peanutty.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Red_Wing.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Red_Wing.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Red_Wing.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Springy.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Springy.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Springy.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/vanilla_heart.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-vanilla_heart.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-vanilla_heart.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Bird_Nest-1.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Bird_Nest-1.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Bird_Nest-1.jpg" />
                             </a>
                         </li>
                         <!---->
                         <li class="cupcake-item">
                             <a href="assets/slices/jry/Cheeky_Monkey.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Cheeky_Monkey.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Cheeky_Monkey.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Delish.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Delish.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Delish.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Gimme_Smores.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Gimme_Smores.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Gimme_Smores.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Minty.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Minty.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Minty.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Old_School.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Old_School.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Old_School.jpg" />
                             </a>
                         </li>
                         <!---->
 
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Praline.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Praline.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Praline.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Rocky_Road.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Rocky_Road.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Rocky_Road.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/Sweet_and_Salty.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-Sweet_and_Salty.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-Sweet_and_Salty.jpg" />
                             </a>
                         </li>
                         <li class="cupcake-item">
                             <a href="assets/slices/cupcallery/BB.jpg">
-                                <img src="assets/slices/cupcallery/thumbnails/thb-BB.jpg" />
+                                <img src="/assets/slices/cupcallery/thumbnails/thb-BB.jpg" />
                             </a>
                         </li>
                         <!---->
@@ -663,8 +659,8 @@
 
                     <div class="form-container four columns">
                         <h1 class="headline join-mailing-list">Join Our Mailing List</h1>
-                          
-                           <div id="form-mailing-list-status-text" class="form-status-text-container">
+
+                        <div id="form-mailing-list-status-text" class="form-status-text-container">
                             <div class="form-status-message">
 
                             </div>
