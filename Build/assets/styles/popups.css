@@ -47,6 +47,7 @@ Backtrace:
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
 */
+
 body:before {
   white-space: pre;
   font-family: monospace;

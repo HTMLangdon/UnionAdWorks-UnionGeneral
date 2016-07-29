@@ -14,7 +14,8 @@ html {
   -webkit-text-size-adjust: 100%; }
 
 body {
-  margin: 0; }
+    margin: 0;
+}
 
 article,
 aside,
@@ -29,7 +30,8 @@ menu,
 nav,
 section,
 summary {
-  display: block; }
+  display: block; 
+}
 
 audio,
 canvas,
